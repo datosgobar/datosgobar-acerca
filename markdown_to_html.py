@@ -16,7 +16,7 @@ import markdown
 from bs4 import BeautifulSoup
 
 
-def main(input_path, output_path):
+def main(input_path, output_path, section_name):
     with open(input_path, "r") as f:
         md = f.read().decode("utf-8")
 
@@ -32,6 +32,11 @@ def main(input_path, output_path):
     <div class="restricted-max-width ">
         <div id="template-config" class="col-xs-12 col-md-10 col-md-offset-1 about-template-container" style="padding: 0 60px;">
 
+            <br/>
+            <div id="pkg-path">
+                <a href="/">Datos Argentina</a> / {section_name}
+            </div>
+
 {document}
 
         </div>
@@ -39,10 +44,13 @@ def main(input_path, output_path):
 </div>
 
 {{% endblock %}}
-        """.format(document=html)
+        """.format(
+            document=html,
+            section_name=section_name.decode("utf8")
+        )
 
         f.write(andino_html.encode("utf-8"))
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], sys.argv[3])
