@@ -1,5 +1,23 @@
 # Publicá datos
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+ 
+
+- [1. Publicá en datos.gob.ar](#1-public%C3%A1-en-datosgobar)
+    - [Creá un catálogo de datos abiertos](#cre%C3%A1-un-cat%C3%A1logo-de-datos-abiertos)
+    - [Documentá tus datos](#document%C3%A1-tus-datos)
+    - [Sumá tu catálogo a datos.gob.ar](#sum%C3%A1-tu-cat%C3%A1logo-a-datosgobar)
+- [2. Mejorá la calidad de tus datos](#2-mejor%C3%A1-la-calidad-de-tus-datos)
+    - [Compartí tus datos en formatos abiertos](#compart%C3%AD-tus-datos-en-formatos-abiertos)
+    - [Normalizá y enriquecé tus datos](#normaliz%C3%A1-y-enriquec%C3%A9-tus-datos)
+- [3. Publicá datos como un servicio](#3-public%C3%A1-datos-como-un-servicio)
+   - [Documentá y compartí tus servicios de datos](#document%C3%A1-y-compart%C3%AD-tus-servicios-de-datos)
+   - [Sumá tus datos a la API de Series de Tiempo](#sum%C3%A1-tus-datos-a-la-api-de-series-de-tiempo)
+- [¿Tenés dudas? Escribinos](#%C2%BFten%C3%A9s-dudas-escribinos)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 **_Datos abiertos: qué son y por qué tu organismo quiere abrirlos_**
 
 Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos *están publicados*, y además no es lo mismo *publicar datos* que *abrir datos*.
@@ -40,15 +58,15 @@ Un catálogo de datos abiertos es una lista de activos de datos y sus metadatos,
 
 Para tener un catálogo, no necesitás tener un portal web. Podés crear tu catálogo de varias maneras:
 
-* **Instalando un Portal Andino**. Instalando un portal web de datos abiertos (Ej: **[https://datos.agroindustria.gob.ar](https://datos.agroindustria.gob.ar)** - portal de datos abiertos del Ministerio de Agroindustria). Leé más sobre qué es y cómo instalar **[Portal Andino](http://andino.datos.gob.ar/)**.
+* **Instalando un Portal Andino**. Instalando un portal web de datos abiertos (Ej: [https://datos.agroindustria.gob.ar](https://datos.agroindustria.gob.ar) - portal de datos abiertos del Ministerio de Agroindustria). Leé más sobre qué es y cómo instalar **[Portal Andino](http://andino.datos.gob.ar/)**.
 
-* **Completando un Excel**. Subiendo un archivo Excel a una URL (Ej: **[http://estadisticas.produccion.gob.ar/catalogo.xlsx](http://estadisticas.produccion.gob.ar/catalogo.xlsx)** - catálogo de la Secretaría de Transformación Productiva).
+* **Completando un Excel**. Subiendo un archivo Excel a una URL (Ej: [http://estadisticas.produccion.gob.ar/catalogo.xlsx](http://estadisticas.produccion.gob.ar/catalogo.xlsx) - catálogo de la Secretaría de Transformación Productiva).
 
-* **Generando un JSON**. Generando y subiendo un archivo JSON a una URL (Ej: **[https://www.presupuestoabierto.gob.ar/datasets/data.json](https://www.presupuestoabierto.gob.ar/datasets/data.json)** - catálogo de la Subsecretaría de Presupuesto). Esto podrías hacerlo mediante una aplicación propia, otro portal de datos abiertos, etc.
+* **Generando un JSON**. Generando y subiendo un archivo JSON a una URL (Ej: [https://www.presupuestoabierto.gob.ar/datasets/data.json](https://www.presupuestoabierto.gob.ar/datasets/data.json) - catálogo de la Subsecretaría de Presupuesto). Esto podrías hacerlo mediante una aplicación propia, otro portal de datos abiertos, etc.
 
-Ver más **[ejemplos de catálogos](http://infra.datos.gob.ar/catalog/modernizacion/dataset/8/distribution/8.1/download/nodos.csv)**.
+Ver más [ejemplos de catálogos](http://infra.datos.gob.ar/catalog/modernizacion/dataset/8/distribution/8.1/download/nodos.csv).
 
-Leé más sobre cómo **[crear un catálogo sin usar Portal Andino](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#otros-catalogos)**.
+Leé más sobre cómo [crear un catálogo sin usar Portal Andino](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#otros-catalogos).
 
 ### Documentá tus datos
 
@@ -58,15 +76,15 @@ Leé más sobre cómo **[crear un catálogo sin usar Portal Andino](https://paqu
 
 Leé más sobre cómo documentar tus datos en nuestra **[Guía para el uso y la publicación de metadatos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html)**.
 
-El **[equipo de Datos](https://datosgobar.github.io/)** del Ministerio de Modernización está para ayudarte en este proceso contactanos a **[datos@modernizacion.gob.ar](mailto:datos@modernizacion.gob.ar)** para que te asistamos en cómo hacerlo mejor y cómo planificar tus próximos pasos.
+El [equipo de Datos](https://datosgobar.github.io/) del Ministerio de Modernización está para ayudarte en este proceso contactanos a [datos@modernizacion.gob.ar](mailto:datos@modernizacion.gob.ar) para que te asistamos en cómo hacerlo mejor y cómo planificar tus próximos pasos.
 
 ### Sumá tu catálogo a datos.gob.ar
 
 Si tu catálogo cumple con el **[Perfil Nacional de Metadatos para Datos Abiertos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#campos-del-perfil)** puede integrarse a datos.gob.ar. Cualquier modificación en tu catálogo se verá reflejada automáticamente en datos.gob.ar.
 
-* Escribinos a **[datos@modernizacion.gob.ar](mailto:datos@modernizacion.gob.ar)** con la URL de tu catálogo para que te sumemos a **[datos.gob.ar](http://datos.gob.ar)**.
+* Escribinos a [datos@modernizacion.gob.ar](mailto:datos@modernizacion.gob.ar) con la URL de tu catálogo para que te sumemos a **[datos.gob.ar](http://datos.gob.ar)**.
 
-* Si sos desarrollador, y querés ver si tu catalogo está listo para estar en datos.gob.ar **[validalo con pydatajson](https://pydatajson.readthedocs.io/es/stable/MANUAL.html#validacion)**.
+* Si sos desarrollador, y querés ver si tu catalogo está listo para estar en datos.gob.ar [validalo con pydatajson](https://pydatajson.readthedocs.io/es/stable/MANUAL.html#validacion).
 
 A partir de que nos enviás la URL de tu catálogo, el equipo de Datos Argentina analiza cada dataset nuevo que publicás y te ayuda a mejorar la calidad de sus datos y metadatos, antes de agregarlo a **[datos.gob.ar](http://datos.gob.ar)**.
 
@@ -74,7 +92,7 @@ Ahora que ya estás publicando te proponemos trabajar en la calidad de tu datos.
 
 ## 2. Mejorá la calidad de tus datos
 
-Una vez que tenés un catálogo de datos abiertos con **todos los archivos con datos, servicios web de datos y aplicaciones web diseñadas para la descarga de datos** que tu organismo tiene en su propiedad digital en internet o en [argentina.gob.ar](https://www.argentina.gob.ar/), podés mejorar la calidad de tus datos siguiendo buenas prácticas.
+Una vez que tenés un catálogo de datos abiertos con **todos los archivos con datos, servicios web de datos y aplicaciones web diseñadas para la descarga de datos** que tu organismo tiene en su propiedad digital en internet o en **[argentina.gob.ar](https://www.argentina.gob.ar/)**, podés mejorar la calidad de tus datos siguiendo buenas prácticas.
 
 ### Compartí tus datos en formatos abiertos
 
@@ -82,15 +100,15 @@ La diferencia entre un dato *publicado* y uno *abierto* es que este debe ser fá
 
 Leé sobre cómo publicar en formatos abiertos en nuestra **[Guía para la publicación de datos en formatos abiertos](http://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html)**.
 
-Si sos desarrollador y querés implementar rutinas de transformación y limpieza de datos que sigan estas buenas prácticas, podés usar **[Data Cleane**r](http://data-cleaner.readthedocs.io/).
+Si sos desarrollador y querés implementar rutinas de transformación y limpieza de datos que sigan estas buenas prácticas, podés usar **[Data Cleaner](http://data-cleaner.readthedocs.io/)**.
 
 ### Normalizá y enriquecé tus datos
 
 Para que tus datos se puedan cruzar fácilmente con otros es necesario que sigas estándares para llamar a las mismas cosas, de la misma manera.
 
-Leé sobre cómo estandarizar tus datos en nuestra **[Guía para la identificación y uso de entidades interoperable**s](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html).
+Leé sobre cómo estandarizar tus datos en nuestra **[Guía para la identificación y uso de entidades interoperables](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html)**.
 
-Si tenés datos con provincias, departamentos, municipios, localidades, calles o coordenadas podés usar la **[API del Servicio de Normalización de Datos Geográfico**s](http://apis.datos.gob.ar/georef/) para normalizar o enriquecer entidades geográficas de la Argentina.
+Si tenés datos con provincias, departamentos, municipios, localidades, calles o coordenadas podés usar la **[API del Servicio de Normalización de Datos Geográficos](http://apis.datos.gob.ar/georef/)** para normalizar o enriquecer entidades geográficas de la Argentina.
 
 ## 3. Publicá datos como un servicio
 
@@ -98,7 +116,7 @@ Publicar datos como un servicio web es un paso más hacia facilitar y potenciar 
 
 Un servicio web es una URL configurable que te permite hacer consultas personalizadas a una base de datos, y actualizarlas fácilmente cuantas veces quieras.
 
-Si ya tenés un servicio de datos,** ****leé nuestras recomendaciones para documentarlo y compartirlo**.
+Si ya tenés un servicio de datos, **leé nuestras recomendaciones para documentarlo y compartirlo**.
 
 Si no tenés un servicio pero publicas series estadísticas, podés **sumarlas a la API de Series de Tiempo de la República Argentina**.
 
@@ -106,19 +124,19 @@ Si no tenés un servicio pero publicas series estadísticas, podés **sumarlas a
 
 Si tenés un servicio de datos que querés compartir públicamente:
 
-* Hace que sea más fácil de usar: documentá la interfaz y sus funcionalidades, escribí ejemplos de uso, sé lo más claro posible con los términos de uso. (Ej.: [Series de Tiempo](http://apis.datos.gob.ar/series/), [Servicio de Normalización de Datos Geográficos](http://apis.datos.gob.ar/georef/))
+* Hace que sea más fácil de usar: documentá la interfaz y sus funcionalidades, escribí ejemplos de uso, sé lo más claro posible con los términos de uso. (Ej.: **[Series de Tiempo](http://apis.datos.gob.ar/series/)**, **[Servicio de Normalización de Datos Geográficos](http://apis.datos.gob.ar/georef/)**)
 
 Te recomendamos revisar [Read the Docs](http://apis.datos.gob.ar/series/) y [OpenAPI](https://swagger.io/) como soporte para tu documentación, podés ver nuestro [ejemplo de Series de Tiempo](https://github.com/datosgobar/series-tiempo-ar-api) y nuestro [ejemplo del Servicio de Normalización de Datos Geográficos](https://github.com/datosgobar/georef-ar-api).
 
-* Ayudá a que sea fácil de encontrar: sumá la URL de la documentación del servicio al catálogo de datos de tu organismo e [indic](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#distribucion-distribution)[á que es una API en tus metadatos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#distribucion-distribution).
+* Ayudá a que sea fácil de encontrar: sumá la URL de la documentación del servicio al catálogo de datos de tu organismo e [indicá que es una API en tus metadatos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#distribucion-distribution).
 
 * Cuidá tu infraestructura: publicá la base de datos completa en formatos abiertos junto con el servicio (Ej.: [dataset de Series de Tiempo](http://datos.gob.ar/dataset/modernizacion-base-series-tiempo-administracion-publica-nacional)).
 
 ### Sumá tus datos a la API de Series de Tiempo
 
-Si publicás indicadores o estadísticas con evolución cronológica (como el [nivel de actividad](http://datos.gob.ar/series/api/series/?ids=143.3_NO_PR_2004_A_21)), podés sumarlos fácilmente a la [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar/series/) y:
+Si publicás indicadores o estadísticas con evolución cronológica (como el [nivel de actividad](http://datos.gob.ar/series/api/series/?ids=143.3_NO_PR_2004_A_21)), podés sumarlos fácilmente a la **[API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar/series/)** y:
 
-* Visualizarlas en el [Explorador de Series de Tiempo](http://datos.gob.ar/series) y compartir tus gráficos.
+* Visualizarlas en el **[Explorador de Series de Tiempo](http://datos.gob.ar/series)** y compartir tus gráficos.
 
 * [Integrar consultas a tus datos en planillas de cálculo](https://series-tiempo-ar-api.readthedocs.io/es/latest/spreadsheet_integration/).
 
@@ -130,14 +148,14 @@ Para sumar tus series a la API:
 
 * Publicá tus indicadores o estadísticas en archivos CSV, siguiendo [este formato estándar](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#distribucion-de-series-de-tiempo).
 
-* [Documentá](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#documentar-un-dataset-de-series-de-tiempo)[ tus archivos CSV con series de tiempo](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#documentar-un-dataset-de-series-de-tiempo) en tu **catálogo de datos abiertos**.
+* [Documentá tus archivos CSV con series de tiempo](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#documentar-un-dataset-de-series-de-tiempo) en tu **catálogo de datos abiertos**.
 
 * [Avisanos que tu catálogo tiene series de tiempo](mailto:datos@modernizacion.gob.ar), para que lo agreguemos a la API.
 
-Si sos desarrollador, tenés tus series de tiempo en archivos Excel y es difícil convertirlos al formato estándar en CSV, podés usar [este proyecto](https://github.com/datosgobar/series-tiempo-ar-scraping).
+Si sos desarrollador, tenés tus series de tiempo en archivos Excel y es difícil convertirlos al formato estándar en CSV, podés usar el [Scraper de Series de Tiempo](https://github.com/datosgobar/series-tiempo-ar-scraping).
 
 Si querés explorar nuevas formas de usar la API de Series de Tiempo para automatizar reportes, análisis, visualizaciones o desarrollar aplicaciones web, mirá [este taller](https://github.com/datosgobar/taller-series-tiempo-mediaparty-2018).
 
 ## ¿Tenés dudas? Escribinos
 
-Para comenzar te recomendamos leer nuestro [Kit de Datos Abiertos](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf). También podés [pedirnos ayuda](mailto:datos@modernizacion.gob.ar).
+Para comenzar te recomendamos leer nuestro [Kit de Datos Abiertos](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf). También podés [contactarnos](mailto:datos@modernizacion.gob.ar).
