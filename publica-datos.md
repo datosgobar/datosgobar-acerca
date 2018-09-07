@@ -18,25 +18,25 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-    **_Datos abiertos: qué son y por qué tu organismo quiere abrirlos_**
+**_Datos abiertos: qué son y por qué tu organismo quiere abrirlos_**
 
-    Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos *están publicados*, y además no es lo mismo *publicar datos* que *abrir datos*.
+Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos *están publicados*, y además no es lo mismo *publicar datos* que *abrir datos*.
 
-    La diferencia entre un dato *publicado* y uno *abierto* es **todo lo que hace que el dato público sea valioso y fácil de reutilizar** por terceros dentro y fuera del sector público, o incluso por uno mismo:
+La diferencia entre un dato *publicado* y uno *abierto* es **todo lo que hace que el dato público sea valioso y fácil de reutilizar** por terceros dentro y fuera del sector público, o incluso por uno mismo:
 
-    * Que sea fácil de encontrar
-    * Que sea fácil de usar por distintos usuarios, para distintos usos y mediante distintas herramientas
-    * Que se pueda cruzar con otros datos (públicos o no, abiertos o no)
-    * Que se pueda integrar en sistemas y aplicaciones
+* Que sea fácil de encontrar
+* Que sea fácil de usar por distintos usuarios, para distintos usos y mediante distintas herramientas
+* Que se pueda cruzar con otros datos (públicos o no, abiertos o no)
+* Que se pueda integrar en sistemas y aplicaciones
 
-    Abrir los datos de tu organismo te ayuda a:
+Abrir los datos de tu organismo te ayuda a:
 
-    * Bajar los costos de compartir datos
-    * Organizar tu flujo de trabajo con datos
-    * Transparentar la gestión
-    * Promover la generación de valor agregado por terceros
+* Bajar los costos de compartir datos
+* Organizar tu flujo de trabajo con datos
+* Transparentar la gestión
+* Promover la generación de valor agregado por terceros
 
-    Si querés saber más sobre datos abiertos podés consultar nuestro **[Kit de Datos Abiertos](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf)**.
+Si querés saber más sobre datos abiertos podés consultar nuestro **[Kit de Datos Abiertos](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf)**.
 
 Para abrir los datos de tu organismo, te proponemos estos pasos:
 
