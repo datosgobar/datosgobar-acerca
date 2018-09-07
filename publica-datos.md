@@ -29,6 +29,8 @@
 
 </div>
 
+**Todos los archivos de datos, servicios web de datos y aplicaciones web diseñadas para la descarga de datos** que tu organismo tiene en su propiedad digital en internet o en [argentina.gob.ar](https://www.argentina.gob.ar/) son datos públicos que esperan ser abiertos.
+
 Para abrir los datos de tu organismo, te proponemos seguir estos pasos:
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
