@@ -1,22 +1,5 @@
 # Publicá datos
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
- 
-
-- [1. Publicá en datos.gob.ar](#1-public%C3%A1-en-datosgobar)
-    - [Creá un catálogo de datos abiertos](#cre%C3%A1-un-cat%C3%A1logo-de-datos-abiertos)
-    - [Documentá tus datos](#document%C3%A1-tus-datos)
-    - [Sumá tu catálogo a datos.gob.ar](#sum%C3%A1-tu-cat%C3%A1logo-a-datosgobar)
-- [2. Mejorá la calidad de tus datos](#2-mejor%C3%A1-la-calidad-de-tus-datos)
-    - [Compartí tus datos en formatos abiertos](#compart%C3%AD-tus-datos-en-formatos-abiertos)
-    - [Normalizá y enriquecé tus datos](#normaliz%C3%A1-y-enriquec%C3%A9-tus-datos)
-- [3. Publicá datos como un servicio](#3-public%C3%A1-datos-como-un-servicio)
-   - [Documentá y compartí tus servicios de datos](#document%C3%A1-y-compart%C3%AD-tus-servicios-de-datos)
-   - [Sumá tus datos a la API de Series de Tiempo](#sum%C3%A1-tus-datos-a-la-api-de-series-de-tiempo)
-- [¿Tenés dudas? Escribinos](#%C2%BFten%C3%A9s-dudas-escribinos)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 <div style="background: #eeeeee; border-color: #999999; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
 
@@ -46,11 +29,25 @@
 
 </div>
 
-Para abrir los datos de tu organismo, te proponemos estos pasos:
+Para abrir los datos de tu organismo, te proponemos seguir estos pasos:
 
-1. Publicá en datos.gob.ar
-2. Mejorá la calidad de tus datos
-3. Publicá datos como servicio
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+ 
+
+- [1. Publicá en datos.gob.ar](#1-public%C3%A1-en-datosgobar)
+    - [Creá un catálogo de datos abiertos](#cre%C3%A1-un-cat%C3%A1logo-de-datos-abiertos)
+    - [Documentá tus datos](#document%C3%A1-tus-datos)
+    - [Sumá tu catálogo a datos.gob.ar](#sum%C3%A1-tu-cat%C3%A1logo-a-datosgobar)
+- [2. Mejorá la calidad de tus datos](#2-mejor%C3%A1-la-calidad-de-tus-datos)
+    - [Compartí tus datos en formatos abiertos](#compart%C3%AD-tus-datos-en-formatos-abiertos)
+    - [Normalizá y enriquecé tus datos](#normaliz%C3%A1-y-enriquec%C3%A9-tus-datos)
+- [3. Publicá datos como un servicio](#3-public%C3%A1-datos-como-un-servicio)
+    - [Documentá y compartí tus servicios de datos](#document%C3%A1-y-compart%C3%AD-tus-servicios-de-datos)
+    - [Sumá tus datos a la API de Series de Tiempo](#sum%C3%A1-tus-datos-a-la-api-de-series-de-tiempo)
+- [¿Tenés dudas? Escribinos](#%C2%BFten%C3%A9s-dudas-escribinos)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## 1. Publicá en datos.gob.ar
 
@@ -90,7 +87,7 @@ Si tu catálogo cumple con el **[Perfil Nacional de Metadatos para Datos Abierto
 
 * Escribinos a [datos@modernizacion.gob.ar](mailto:datos@modernizacion.gob.ar) con la URL de tu catálogo para que te sumemos a **[datos.gob.ar](http://datos.gob.ar)**.
 
-* Si sos desarrollador, y querés ver si tu catalogo está listo para estar en datos.gob.ar [validalo con pydatajson](https://pydatajson.readthedocs.io/es/stable/MANUAL.html#validacion).
+* Si sos desarrollador, y querés ver si tu catalogo está listo para estar en datos.gob.ar [validalo con **pydatajson**](https://pydatajson.readthedocs.io/es/stable/MANUAL.html#validacion).
 
 A partir de que nos enviás la URL de tu catálogo, el equipo de Datos Argentina analiza cada dataset nuevo que publicás y te ayuda a mejorar la calidad de sus datos y metadatos, antes de agregarlo a **[datos.gob.ar](http://datos.gob.ar)**.
 
