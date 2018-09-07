@@ -18,6 +18,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+<div class="alert alert-info">
 **_Datos abiertos: qué son y por qué tu organismo quiere abrirlos_**
 
 Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos *están publicados*, y además no es lo mismo *publicar datos* que *abrir datos*.
@@ -37,6 +38,8 @@ Abrir los datos de tu organismo te ayuda a:
 * Promover la generación de valor agregado por terceros
 
 Si querés saber más sobre datos abiertos podés consultar nuestro **[Kit de Datos Abiertos](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf)**.
+
+</div>
 
 Para abrir los datos de tu organismo, te proponemos estos pasos:
 
@@ -70,8 +73,6 @@ Leé más sobre cómo [crear un catálogo sin usar Portal Andino](https://paquet
 
 ### Documentá tus datos
 
-**Todos los archivos de datos, servicios web de datos y aplicaciones web diseñadas para la descarga de datos** que tu organismo tiene en su propiedad digital en internet o en [argentina.gob.ar](https://www.argentina.gob.ar/) son datos públicos que esperan ser abiertos.
-
 **Para que los datos sean abiertos, es fundamental documentarlos** como *datasets* en tu catálogo de datos abiertos.
 
 Leé más sobre cómo documentar tus datos en nuestra **[Guía para el uso y la publicación de metadatos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html)**.
@@ -92,7 +93,7 @@ Ahora que ya estás publicando te proponemos trabajar en la calidad de tu datos.
 
 ## 2. Mejorá la calidad de tus datos
 
-Una vez que tenés un catálogo de datos abiertos con **todos los archivos con datos, servicios web de datos y aplicaciones web diseñadas para la descarga de datos** que tu organismo tiene en su propiedad digital en internet o en **[argentina.gob.ar](https://www.argentina.gob.ar/)**, podés mejorar la calidad de tus datos siguiendo buenas prácticas.
+Una vez que tenés un catálogo de datos abiertos podés mejorar la calidad de tus datos siguiendo buenas prácticas.
 
 ### Compartí tus datos en formatos abiertos
 
