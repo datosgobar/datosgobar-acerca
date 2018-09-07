@@ -18,27 +18,31 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-<div style="background: #d9f4e3; border-color: #5ad083; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
+<div style="background: #eeeeee; border-color: #999999; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
 
-**Datos abiertos: qué son y por qué tu organismo quiere abrirlos**
+<p><strong>Datos abiertos: qué son y por qué tu organismo quiere abrirlos</strong></p>
 
-Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos *están publicados*, y además no es lo mismo *publicar datos* que *abrir datos*.
+<p>Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos <em>están publicados</em>, y además no es lo mismo <em>publicar datos</em> que <em>abrir datos</em>.</p>
 
-La diferencia entre un dato *publicado* y uno *abierto* es **todo lo que hace que el dato público sea valioso y fácil de reutilizar** por terceros dentro y fuera del sector público, o incluso por uno mismo:
+<p>La diferencia entre un dato <em>publicado</em> y uno <em>abierto</em> es <strong>todo lo que hace que el dato público sea valioso y fácil de reutilizar</strong> por terceros dentro y fuera del sector público, o incluso por uno mismo:</p>
 
-* Que sea fácil de encontrar
-* Que sea fácil de usar por distintos usuarios, para distintos usos y mediante distintas herramientas
-* Que se pueda cruzar con otros datos (públicos o no, abiertos o no)
-* Que se pueda integrar en sistemas y aplicaciones
+<ol>
+<li>Que sea fácil de encontrar</li>
+<li>Que sea fácil de usar por distintos usuarios, para distintos usos y mediante distintas herramientas</li>
+<li>Que se pueda cruzar con otros datos (públicos o no, abiertos o no)</li>
+<li>Que se pueda integrar en sistemas y aplicaciones</li>
+</ol>
 
-Abrir los datos de tu organismo te ayuda a:
+<p>Abrir los datos de tu organismo te ayuda a:</p>
 
-* Bajar los costos de compartir datos
-* Organizar tu flujo de trabajo con datos
-* Transparentar la gestión
-* Promover la generación de valor agregado por terceros
+<ol>
+<li>Bajar los costos de compartir datos</li>
+<li>Organizar tu flujo de trabajo con datos</li>
+<li>Transparentar la gestión</li>
+<li>Promover la generación de valor agregado por terceros</li>
+</ol>
 
-Si querés saber más sobre datos abiertos podés consultar nuestro **[Kit de Datos Abiertos](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf)**.
+<p>Si querés saber más sobre datos abiertos podés consultar nuestro <strong><a href="https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf">Kit de Datos Abiertos</a></strong>.</p>
 
 </div>
 

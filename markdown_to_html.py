@@ -26,7 +26,7 @@ def main(input_path, output_path):
         # pretty_html = bs.prettify()
 
         andino_html = """
-{% extends "gobar_page.html" %} {% block page %}
+{{% extends "gobar_page.html" %}} {{% block page %}}
 
 <div class="container-fluid" id="template-config-container">
     <div class="restricted-max-width ">
@@ -38,7 +38,7 @@ def main(input_path, output_path):
     </div>
 </div>
 
-{% endblock %}
+{{% endblock %}}
         """.format(document=html)
 
         f.write(andino_html.encode("utf-8"))
