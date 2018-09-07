@@ -18,8 +18,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-<div class="alert alert-info">
-**_Datos abiertos: qué son y por qué tu organismo quiere abrirlos_**
+<div style="background: #d9f4e3; border-color: #5ad083; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
+
+**Datos abiertos: qué son y por qué tu organismo quiere abrirlos**
 
 Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos *están publicados*, y además no es lo mismo *publicar datos* que *abrir datos*.
 
