@@ -1,34 +1,41 @@
+
+<style>
+#template-config-container #template-config p, #template-config-container #template-config label {
+    margin: 0 0 20px 0;
+}
+li {
+    padding: 5px;
+}
+</style>
 # Publicá datos
 
-<br>
-<div style="background: #eeeeee; border-color: #999999; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
+<div style="background: #eeeeee; border-color: #999999; margin-top: 25px;margin-bottom: 25px; padding: 25px; padding-bottom: 0px; border: 1px solid transparent; border-radius: 4px;">
 
-<br>
-<p><strong>Datos abiertos: qué son y por qué tu organismo quiere abrirlos</strong></p>
+    <p><strong>Datos abiertos: qué son y por qué tu organismo quiere abrirlos</strong></p>
 
-<p>Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos <em>están publicados</em>, y además no es lo mismo <em>publicar datos</em> que <em>abrir datos</em>.</p>
+    <p>Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos <em>están publicados</em>, y además no es lo mismo <em>publicar datos</em> que <em>abrir datos</em>.</p>
 
-<p>La diferencia entre un dato <em>publicado</em> y uno <em>abierto</em> es <strong>todo lo que hace que el dato público sea valioso y fácil de reutilizar</strong> por terceros dentro y fuera del sector público, o incluso por uno mismo:</p>
+    <p>La diferencia entre un dato <em>publicado</em> y uno <em>abierto</em> es <strong>todo lo que hace que el dato público sea valioso y fácil de reutilizar</strong> por terceros dentro y fuera del sector público, o incluso por uno mismo:</p>
 
-<ul>
-<li>Que sea fácil de encontrar</li>
-<li>Que sea fácil de usar por distintos usuarios, para distintos usos y mediante distintas herramientas</li>
-<li>Que se pueda cruzar con otros datos (públicos o no, abiertos o no)</li>
-<li>Que se pueda integrar en sistemas y aplicaciones</li>
-</ul>
+    <ul>
+    <li>Que sea fácil de encontrar</li>
+    <li>Que sea fácil de usar por distintos usuarios, para distintos usos y mediante distintas herramientas</li>
+    <li>Que se pueda cruzar con otros datos (públicos o no, abiertos o no)</li>
+    <li>Que se pueda integrar en sistemas y aplicaciones</li>
+    </ul>
 
-<br>
-<p>Abrir los datos de tu organismo te ayuda a:</p>
+    <br>
+    <p>Abrir los datos de tu organismo te ayuda a:</p>
 
-<ul>
-<li>Bajar los costos de compartir datos</li>
-<li>Organizar tu flujo de trabajo con datos</li>
-<li>Transparentar la gestión</li>
-<li>Promover la generación de valor agregado por terceros</li>
-</ul>
+    <ul>
+    <li>Bajar los costos de compartir datos</li>
+    <li>Organizar tu flujo de trabajo con datos</li>
+    <li>Transparentar la gestión</li>
+    <li>Promover la generación de valor agregado por terceros</li>
+    </ul>
 
-<br>
-<p>Si querés saber más sobre datos abiertos podés consultar nuestro <strong><a href="https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf">Kit de Datos Abiertos</a></strong>.</p>
+    <br>
+    <p>Si querés saber más sobre datos abiertos podés consultar nuestro <strong><a href="https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf">Kit de Datos Abiertos</a></strong>.</p>
 </div>
 
 **Todos los archivos de datos, servicios web de datos y aplicaciones web diseñadas para la descarga de datos** que tu organismo tiene en su propiedad digital en internet o en [argentina.gob.ar](https://www.argentina.gob.ar/) son datos públicos que esperan ser abiertos.
@@ -38,24 +45,19 @@ Para abrir los datos de tu organismo, te proponemos seguir estos pasos:
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
  
-
 - [1. Publicá en datos.gob.ar](#1-public%C3%A1-en-datosgobar)
     - [Creá un catálogo de datos abiertos](#cre%C3%A1-un-cat%C3%A1logo-de-datos-abiertos)
     - [Documentá tus datos](#document%C3%A1-tus-datos)
     - [Sumá tu catálogo a datos.gob.ar](#sum%C3%A1-tu-cat%C3%A1logo-a-datosgobar)
-
 - [2. Mejorá la calidad de tus datos](#2-mejor%C3%A1-la-calidad-de-tus-datos)
     - [Compartí tus datos en formatos abiertos](#compart%C3%AD-tus-datos-en-formatos-abiertos)
     - [Normalizá y enriquecé tus datos](#normaliz%C3%A1-y-enriquec%C3%A9-tus-datos)
-
 - [3. Publicá datos como un servicio](#3-public%C3%A1-datos-como-un-servicio)
     - [Documentá y compartí tus servicios de datos](#document%C3%A1-y-compart%C3%AD-tus-servicios-de-datos)
     - [Sumá tus datos a la API de Series de Tiempo](#sum%C3%A1-tus-datos-a-la-api-de-series-de-tiempo)
-
 - [¿Tenés dudas? Escribinos](#%C2%BFten%C3%A9s-dudas-escribinos)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 <br>
 ## 1. Publicá en datos.gob.ar
 
