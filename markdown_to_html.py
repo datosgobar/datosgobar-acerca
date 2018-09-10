@@ -15,42 +15,33 @@ import sys
 import markdown
 from bs4 import BeautifulSoup
 
+from andino_templates import PREVIEW_TEMPLATE, SECTION_TEMPLATE
 
-def main(input_path, output_path, section_name):
+
+def main(input_path, output_path_preview, output_path_section,
+         section_name):
+
+    # convierte el markdown a html
     with open(input_path, "r") as f:
         md = f.read().decode("utf-8")
-
-    with open(output_path, "wb") as f:
         html = markdown.markdown(md)
-        # bs = BeautifulSoup(html, "html5lib")
-        # pretty_html = bs.prettify()
 
-        andino_html = """
-{{% extends "gobar_page.html" %}} {{% block page %}}
-
-<div class="container-fluid" id="template-config-container">
-    <div class="restricted-max-width ">
-        <div id="template-config" class="col-xs-12 col-md-10 col-md-offset-1 about-template-container" style="padding: 0 60px;">
-
-            <br/>
-            <div id="pkg-path">
-                <a href="/">Datos Argentina</a> / {section_name}
-            </div>
-
-{document}
-
-        </div>
-    </div>
-</div>
-
-{{% endblock %}}
-        """.format(
+    # genera el html de la sección para previsualizar en este repo
+    with open(output_path_preview, "wb") as f:
+        preview_html = PREVIEW_TEMPLATE.format(
             document=html,
             section_name=section_name.decode("utf8")
         )
+        f.write(preview_html.encode("utf-8"))
 
-        f.write(andino_html.encode("utf-8"))
+    # genera el html de la sección para subir al container de Andino
+    with open(output_path_section, "wb") as f:
+        section_html = SECTION_TEMPLATE.format(
+            document=html,
+            section_name=section_name.decode("utf8")
+        )
+        f.write(section_html.encode("utf-8"))
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2], sys.argv[3])
+    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
