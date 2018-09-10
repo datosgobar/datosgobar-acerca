@@ -22,8 +22,39 @@ SECTION_TEMPLATE = """
                 <a href="/">Datos Argentina</a> / {section_name}
             </div>
 
+            <style>
+            #template-config-container #template-config p, #template-config-container #template-config label {{
+                margin: 0 0 15px 0;
+            }}
+            li {{
+                padding: 5px;
+            }}
+            #template-config-container #template-config h2 {{
+                font-size: 27px;
+                font-weight: bold;
+            }}
+            .h3, h3 {{
+                font-size: 24px;
+            }}
+            .h1, .h2, .h3, h1, h2, h3 {{
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }}
+            #template-config-container #template-config h2 {{
+                margin-top: 60px;
+                margin-bottom: 15px;
+            }}
+            ol, ul {{
+                margin-top: 0;
+                margin-bottom: 20px;
+                padding-left: 20px;
+            }}
+            </style>
+
 {document}
 
+<br>
+<br>
         </div>
     </div>
 </div>
@@ -357,8 +388,38 @@ PREVIEW_TEMPLATE = """
                 <a href="/">Datos Argentina</a> / {section_name}
             </div>
 
-        {document}
+        <style>
+        #template-config-container #template-config p, #template-config-container #template-config label {{
+            margin: 0 0 15px 0;
+        }}
+        li {{
+            padding: 5px;
+        }}
+        #template-config-container #template-config h2 {{
+            font-size: 27px;
+            font-weight: bold;
+        }}
+        .h3, h3 {{
+            font-size: 24px;
+        }}
+        .h1, .h2, .h3, h1, h2, h3 {{
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }}
+        #template-config-container #template-config h2 {{
+            margin-top: 60px;
+            margin-bottom: 15px;
+        }}
+        ol, ul {{
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }}
+        </style>
 
+        {document}
+<br>
+<br>
         </div>
     </div>
 </div>

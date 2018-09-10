@@ -10,19 +10,39 @@
                 <a href="/">Datos Argentina</a> / Publicá datos
             </div>
 
-<style>
-#template-config-container #template-config p, #template-config-container #template-config label {
-    margin: 0 0 20px 0;
-}
-li {
-    padding: 5px;
-}
-</style>
+            <style>
+            #template-config-container #template-config p, #template-config-container #template-config label {
+                margin: 0 0 15px 0;
+            }
+            li {
+                padding: 5px;
+            }
+            #template-config-container #template-config h2 {
+                font-size: 27px;
+                font-weight: bold;
+            }
+            .h3, h3 {
+                font-size: 24px;
+            }
+            .h1, .h2, .h3, h1, h2, h3 {
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }
+            #template-config-container #template-config h2 {
+                margin-top: 60px;
+                margin-bottom: 15px;
+            }
+            ol, ul {
+                margin-top: 0;
+                margin-bottom: 20px;
+                padding-left: 20px;
+            }
+            </style>
 
 <h1>Publicá datos</h1>
-<div style="background: #eeeeee; border-color: #999999; margin-top: 25px;margin-bottom: 25px; padding: 25px; padding-bottom: 0px; border: 1px solid transparent; border-radius: 4px;">
+<div style="background: #eeeeee; border-color: #999999; margin-top: 25px;margin-bottom: 10px; padding: 50px; padding-bottom: 40px; padding-top: 0px; border: 1px solid transparent; border-radius: 4px;">
 
-    <p><strong>Datos abiertos: qué son y por qué tu organismo quiere abrirlos</strong></p>
+    <h2>Datos abiertos: qué son y por qué tu organismo quiere abrirlos</h2>
 
     <p>Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos <em>están publicados</em>, y además no es lo mismo <em>publicar datos</em> que <em>abrir datos</em>.</p>
 
@@ -35,7 +55,6 @@ li {
     <li>Que se pueda integrar en sistemas y aplicaciones</li>
     </ul>
 
-    <br>
     <p>Abrir los datos de tu organismo te ayuda a:</p>
 
     <ul>
@@ -45,10 +64,10 @@ li {
     <li>Promover la generación de valor agregado por terceros</li>
     </ul>
 
-    <br>
     <p>Si querés saber más sobre datos abiertos podés consultar nuestro <strong><a href="https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf">Kit de Datos Abiertos</a></strong>.</p>
 </div>
 
+<h2>Introducción</h2>
 <p><strong>Todos los archivos de datos, servicios web de datos y aplicaciones web diseñadas para la descarga de datos</strong> que tu organismo tiene en su propiedad digital en internet o en <a href="https://www.argentina.gob.ar/">argentina.gob.ar</a> son datos públicos que esperan ser abiertos.</p>
 <p>Para abrir los datos de tu organismo, te proponemos seguir estos pasos:</p>
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -56,30 +75,30 @@ li {
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 <ul>
-<li><a href="#1-public%C3%A1-en-datosgobar">1. Publicá en datos.gob.ar</a><ul>
-<li><a href="#cre%C3%A1-un-cat%C3%A1logo-de-datos-abiertos">Creá un catálogo de datos abiertos</a></li>
-<li><a href="#document%C3%A1-tus-datos">Documentá tus datos</a></li>
-<li><a href="#sum%C3%A1-tu-cat%C3%A1logo-a-datosgobar">Sumá tu catálogo a datos.gob.ar</a></li>
+<li><a href="#1-publica-en-datosgobar"><strong>1. Publicá en datos.gob.ar</strong></a><ul>
+<li><a href="#crea-un-catalogo-de-datos-abiertos">Creá un catálogo de datos abiertos</a></li>
+<li><a href="#documenta-tus-datos">Documentá tus datos</a></li>
+<li><a href="#suma-tu-catalogo-a-datosgobar">Sumá tu catálogo a datos.gob.ar</a></li>
 </ul>
 </li>
-<li><a href="#2-mejor%C3%A1-la-calidad-de-tus-datos">2. Mejorá la calidad de tus datos</a><ul>
-<li><a href="#compart%C3%AD-tus-datos-en-formatos-abiertos">Compartí tus datos en formatos abiertos</a></li>
-<li><a href="#normaliz%C3%A1-y-enriquec%C3%A9-tus-datos">Normalizá y enriquecé tus datos</a></li>
+<li><a href="#2-mejora-la-calidad-de-tus-datos"><strong>2. Mejorá la calidad de tus datos</strong></a><ul>
+<li><a href="#comparti-tus-datos-en-formatos-abiertos">Compartí tus datos en formatos abiertos</a></li>
+<li><a href="#normaliza-y-enriquece-tus-datos">Normalizá y enriquecé tus datos</a></li>
 </ul>
 </li>
-<li><a href="#3-public%C3%A1-datos-como-un-servicio">3. Publicá datos como un servicio</a><ul>
-<li><a href="#document%C3%A1-y-compart%C3%AD-tus-servicios-de-datos">Documentá y compartí tus servicios de datos</a></li>
-<li><a href="#sum%C3%A1-tus-datos-a-la-api-de-series-de-tiempo">Sumá tus datos a la API de Series de Tiempo</a></li>
+<li><a href="#3-publica-datos-como-un-servicio"><strong>3. Publicá datos como un servicio</strong></a><ul>
+<li><a href="#documenta-y-comparti-tus-servicios-de-datos">Documentá y compartí tus servicios de datos</a></li>
+<li><a href="#suma-tus-datos-a-la-api-de-series-de-tiempo">Sumá tus datos a la API de Series de Tiempo</a></li>
 </ul>
 </li>
-<li><a href="#%C2%BFten%C3%A9s-dudas-escribinos">¿Tenés dudas? Escribinos</a></li>
+<li><a href="#tenes-dudas-escribinos"><strong>¿Tenés dudas? Escribinos</strong></a></li>
 </ul>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-<p><br></p>
+<hr />
 <h2>1. Publicá en datos.gob.ar</h2>
 <p>El Portal Nacional de Datos Abiertos (<strong><a href="http://datos.gob.ar">datos.gob.ar</a></strong>) es el punto de acceso para buscar y acceder fácilmente a los datos que publican los organismos de la Administración Pública Nacional.</p>
-<p>Si querés incorporar los datos de tu organismo al Portal Nacional, acá te contamos los pasos del proceso para hacerlo:</p>
+<p>Si querés incorporar los datos de tu organismo al Portal Nacional, acá te contamos los pasos del proceso para hacerlo.</p>
 <h3>Creá un catálogo de datos abiertos</h3>
 <p>El primer paso para incorporarte a datos.gob.ar es inventariar los datos que tenés y dónde están alojados, y para eso necesitamos que confecciones un catálogo de datos.</p>
 <p>Un catálogo de datos abiertos es una lista de activos de datos y sus metadatos, que te describen qué son y cómo podés usarlos. <strong>Facilita encontrar y entender los datos publicados</strong> por organismos del Estado.</p>
@@ -147,6 +166,8 @@ li {
 <h2>¿Tenés dudas? Escribinos</h2>
 <p>Para comenzar te recomendamos leer nuestro <a href="https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf">Kit de Datos Abiertos</a>. También podés <a href="mailto:datos@modernizacion.gob.ar">contactarnos</a>.</p>
 
+<br>
+<br>
         </div>
     </div>
 </div>
