@@ -60,7 +60,7 @@ Si querés incorporar los datos de tu organismo al Portal Nacional, acá te cont
 
 ### Creá un catálogo de datos abiertos
 
-El primer paso para incorporarte a datos.gob.ar es inventariar los datos que tenés y dónde están alojados, y para eso necesitamos que confecciones un catálogo de datos.
+El primer paso para incorporarte a datos.gob.ar es documentar los datos que tenés y dónde están alojados, y para eso necesitamos que confecciones un catálogo de datos.
 
 Un catálogo de datos abiertos es una lista de activos de datos y sus metadatos, que te describen qué son y cómo podés usarlos. **Facilita encontrar y entender los datos publicados** por organismos del Estado.
 
