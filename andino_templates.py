@@ -34,18 +34,19 @@ SECTION_TEMPLATE = """
 # se usa para previsualizar cómo queda la sección con los estilos
 # de Andino, desde Github Pages
 PREVIEW_TEMPLATE = """
-<!DOCTYPE html >
-<!-- saved from url = (0059)http: // stg.datos.gob.ar / acerca / seccion / Public % C3 % A1 % 20datos - ->
-<html lang = "es" class = " js" > <!-- <![endif] - -> < head > <meta http - equiv = "Content-Type" content = "text/html; charset=UTF-8" >
-    <!--[if lte ie 8] > <script type = "text/javascript" src = "/fanstatic/vendor/:version:2018-08-16T11:43:08/html5.min.js" > < / script > <![endif] - ->
-<link rel = "stylesheet" type = "text/css" href = "./assets/select2.css" >
-<link rel = "stylesheet" type = "text/css" href = "./assets/main.min.css" >
-<link rel = "stylesheet" type = "text/css" href = "./assets/font-awesome.min.css" >
-<link rel = "stylesheet" type = "text/css" href = "./assets/harvest.css" >
-<link rel = "stylesheet" type = "text/css" href = "./assets/gobar_style.css" >
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://stg.datos.gob.ar/acerca/seccion/Public%C3%A1%20datos -->
+<html lang="es" class=" js"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2018-08-16T11:43:08/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="./assets/select2.css">
+<link rel="stylesheet" type="text/css" href="./assets/main.min.css">
+<link rel="stylesheet" type="text/css" href="./assets/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./assets/harvest.css">
+<link rel="stylesheet" type="text/css" href="./assets/gobar_style.css">
 
-      <meta name = "generator" content = "ckan 2.7.4" >
-      <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+
+      <meta name="generator" content="ckan 2.7.4">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta property="og:url" content="http://stg.datos.gob.ar/">
     <meta property="og:type" content="article">
@@ -330,6 +331,23 @@ PREVIEW_TEMPLATE = """
 </script>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="container-fluid" id="template-config-container">
     <div class="restricted-max-width ">
         <div id="template-config" class="col-xs-12 col-md-10 col-md-offset-1 about-template-container" style="padding: 0 60px;">
@@ -346,8 +364,27 @@ PREVIEW_TEMPLATE = """
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="js-hide" data-module="google-analytics" data-module-googleanalytics_resource_prefix="">
     </div>
+
+
+
 
   <script>document.getElementsByTagName('html')[0].className += ' js';</script>
 <script type="text/javascript" src="./assets/jquery.min.js"></script>
@@ -448,8 +485,28 @@ PREVIEW_TEMPLATE = """
 </div>
         </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="js-hide" data-module="google-analytics" data-module-googleanalytics_resource_prefix="">
     </div>
 
+
+
+
+
 </body></html>
+
 """
