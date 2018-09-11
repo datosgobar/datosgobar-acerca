@@ -6,9 +6,9 @@
 
 - [Contenidos](#contenidos)
 - [Proyectos](#proyectos)
-  - [Apertura](#apertura)
-  - [Servicios](#servicios)
-  - [Ciencia de datos](#ciencia-de-datos)
+    - [Apertura](#apertura)
+    - [Servicios](#servicios)
+    - [Ciencia de datos](#ciencia-de-datos)
 - [Talleres](#talleres)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
