@@ -7,11 +7,12 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
  
 
 - [Contenidos](#contenidos)
+    - [Recursos y documentos](#recursos-y-documentos)
+    - [Talleres](#talleres)
 - [Proyectos](#proyectos)
     - [Apertura](#apertura)
     - [Servicios](#servicios)
     - [Ciencia de datos](#ciencia-de-datos)
-- [Talleres](#talleres)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
