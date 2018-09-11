@@ -1,0 +1,141 @@
+
+{% extends "gobar_page.html" %} {% block page %}
+
+<div class="container-fluid" id="template-config-container">
+    <div class="restricted-max-width ">
+        <div id="template-config" class="col-xs-12 col-md-10 col-md-offset-1 about-template-container" style="padding: 0 60px;">
+
+            <br/>
+            <div id="pkg-path">
+                <a href="/">Datos Argentina</a> / Productos
+            </div>
+
+            <style>
+            #template-config-container #template-config p, #template-config-container #template-config label {
+                margin: 0 0 15px 0;
+            }
+            li {
+                padding: 5px;
+            }
+            #template-config-container #template-config h2 {
+                font-size: 27px;
+                font-weight: bold;
+            }
+            .h3, h3 {
+                font-size: 24px;
+            }
+            .h1, .h2, .h3, h1, h2, h3 {
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }
+            #template-config-container #template-config h2 {
+                margin-top: 60px;
+                margin-bottom: 15px;
+            }
+            ol, ul {
+                margin-top: 0;
+                margin-bottom: 20px;
+                padding-left: 20px;
+            }
+            </style>
+
+<h1>Nuestros productos</h1>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+<ul>
+<li><a href="#contenidos">Contenidos</a></li>
+<li><a href="#proyectos">Proyectos</a></li>
+<li><a href="#apertura">Apertura</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#ciencia-de-datos">Ciencia de datos</a></li>
+<li><a href="#talleres">Talleres</a></li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<h2>Contenidos</h2>
+<ul>
+<li>
+<p>Material introductorio</p>
+<ul>
+<li><a href="https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf">Kit de Datos Abiertos</a></li>
+</ul>
+</li>
+<li>
+<p>Guías de buenas prácticas</p>
+<ul>
+<li><a href="https://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html">Guía para la publicación de datos en formatos abiertos</a></li>
+<li><a href="https://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html">Guía para la identificación y uso de entidades interoperables</a></li>
+<li><a href="https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html">Guía para el uso y la publicación de metadatos</a></li>
+</ul>
+</li>
+<li>
+<p>Política de apertura de datos</p>
+<ul>
+<li>Perfil Regional de Metadatos (<a href="https://perfil-regional-metadatos.readthedocs.io/">Documentación Español</a> | <a href="https://perfil-regional-metadatos.readthedocs.io/en/latest/">Documentación Inglés</a> | <a href="https://github.com/datosgobar/perfil-regional-metadatos">Github</a>)</li>
+<li><a href="">Kit de Apertura de Datos para Gobiernos Subnacionales</a></li>
+</ul>
+</li>
+</ul>
+<h2>Proyectos</h2>
+<h3>Apertura</h3>
+<ul>
+<li>
+<p>Portal Andino (<a href="http://datos.gob.ar/">datos.gob.ar</a> | <a href="http://portal-andino.datos.gob.ar/">Ejemplo desarrollo</a> | <a href="http://andino.datos.gob.ar/">Landing de producto</a> | <a href="http://portal-andino.readthedocs.io/">Documentación</a> | <a href="http://github.com/datosgobar/portal-andino">Github</a>)</p>
+</li>
+<li>
+<p>Herramientas para la apertura de datos</p>
+<ul>
+<li>pydatajson (<a href="https://pydatajson.readthedocs.io/">Documentación</a> | <a href="https://github.com/datosgobar/pydatajson">Github</a>)</li>
+<li>Monitoreo Apertura (<a href="https://github.com/datosgobar/monitoreo-apertura">Github</a>)</li>
+<li>data-cleaner (<a href="https://data-cleaner.readthedocs.io/">Documentación</a> | <a href="https://github.com/datosgobar/pydatajson">Github</a>)</li>
+<li>django-datajsonar (<a href="https://github.com/datosgobar/django-datajsonar">Github</a>)</li>
+</ul>
+</li>
+</ul>
+<h3>Servicios</h3>
+<ul>
+<li>
+<p>Georef</p>
+<ul>
+<li>API del Servicio de Normalización de Datos Geográficos de Argentina (<a href="http://apis.datos.gob.ar/georef/">Documentación</a> | <a href="https://github.com/datosgobar/georef-ar-api">Github</a>)</li>
+</ul>
+</li>
+<li>
+<p>Series de Tiempo</p>
+<ul>
+<li>API de Series de Tiempo de la República Argentina (<a href="https://apis.datos.gob.ar/series">Documentación</a> | <a href="https://github.com/datosgobar/series-tiempo-ar-api">Github</a>)</li>
+<li>Explorador de Series de Tiempo (<a href="http://datos.gob.ar/series">datos.gob.ar/series</a> | <a href="https://datosgobar.github.io/series-tiempo-ar-explorer/">Ejemplo desarrollo</a> | <a href="https://github.com/datosgobar/series-tiempo-ar-explorer">Github</a>)</li>
+<li>Landing de Series de Tiempo (<a href="https://www.minhacienda.gob.ar/datos/">Hacienda</a> | <a href="https://datosgobar.github.io/series-tiempo-ar-landing/">Ejemplo desarrollo</a> | <a href="https://github.com/datosgobar/series-tiempo-ar-landing">Github</a>)</li>
+<li>Scraper de Series de Tiempo en Excel (<a href="https://github.com/datosgobar/series-tiempo-ar-scraping">Github</a>)</li>
+<li>Generador de Llamadas a la API (<a href="https://datosgobar.github.io/series-tiempo-ar-call-generator/">Aplicación</a> | <a href="https://github.com/datosgobar/series-tiempo-ar-call-generator">Github</a>)</li>
+</ul>
+</li>
+<li>
+<p>API Gateway (<a href="https://github.com/datosgobar/api-gateway">Github</a>)</p>
+</li>
+</ul>
+<h3>Ciencia de datos</h3>
+<ul>
+<li>textar (<a href="https://textar.readthedocs.io/">Documentación</a> | <a href="https://github.com/datosgobar/textar">Github</a>)</li>
+<li>detector-aedes (<a href="https://detector-aedes.readthedocs.io/">Documentación</a> | <a href="https://github.com/datosgobar/detector-aedes">Github</a>)</li>
+</ul>
+<h2>Talleres</h2>
+<ul>
+<li>Taller Análisis de Datos 101 (<a href="https://github.com/datosgobar/taller-analisis-datos-101">Github</a>)</li>
+<li>Taller Análisis Exploratorio de Datos (<a href="https://github.com/datosgobar/taller-analisis-mediaparty-2017">Github</a>)</li>
+<li>Taller SQL 101 (<a href="https://datosgobar.github.io/taller-sql-101/">Presentación</a> | <a href="https://github.com/datosgobar/taller-sql-101">Github</a>)</li>
+<li>Taller de Series de Tiempo (<a href="https://github.com/datosgobar/taller-series-tiempo-mediaparty-2018">Github</a>)</li>
+<li>Taller Github 101 (<a href="https://datosgobar.github.io/taller-github-101">Presentación</a> | <a href="https://github.com/datosgobar/taller-github-101">Github</a>)</li>
+<li>Taller Github 201 (<a href="https://datosgobar.github.io/taller-github-201">Presentación</a> | <a href="https://github.com/datosgobar/taller-github-201">Github</a>)</li>
+<li>Taller Repositorios en Github (<a href="https://datosgobar.github.io/taller-repos-readmes/">Presentación</a> | <a href="https://github.com/datosgobar/taller-repos-readmes">Github</a>)</li>
+</ul>
+
+<br>
+<br>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
