@@ -1,5 +1,7 @@
 # Nuestros productos
 
+Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de datos públicos.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
  
@@ -13,8 +15,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
 ## Contenidos
+
+### Recursos y documentos
 
 * Material introductorio
     - [Kit de Datos Abiertos](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf)
@@ -27,6 +30,16 @@
 * Política de apertura de datos
     - Perfil Regional de Metadatos ([Documentación Español](https://perfil-regional-metadatos.readthedocs.io/) | [Documentación Inglés](https://perfil-regional-metadatos.readthedocs.io/en/latest/) | [Github](https://github.com/datosgobar/perfil-regional-metadatos))
     - [Kit de Apertura de Datos para Gobiernos Subnacionales]()
+
+### Talleres
+
+* Taller Análisis de Datos 101 ([Github](https://github.com/datosgobar/taller-analisis-datos-101))
+* Taller Análisis Exploratorio de Datos ([Github](https://github.com/datosgobar/taller-analisis-mediaparty-2017))
+* Taller SQL 101 ([Presentación](https://datosgobar.github.io/taller-sql-101/) | [Github](https://github.com/datosgobar/taller-sql-101))
+* Taller de Series de Tiempo ([Github](https://github.com/datosgobar/taller-series-tiempo-mediaparty-2018))
+* Taller Github 101 ([Presentación](https://datosgobar.github.io/taller-github-101) | [Github](https://github.com/datosgobar/taller-github-101))
+* Taller Github 201 ([Presentación](https://datosgobar.github.io/taller-github-201) | [Github](https://github.com/datosgobar/taller-github-201))
+* Taller Repositorios en Github ([Presentación](https://datosgobar.github.io/taller-repos-readmes/) | [Github](https://github.com/datosgobar/taller-repos-readmes))
 
 ## Proyectos
 
@@ -59,12 +72,4 @@
 * textar ([Documentación](https://textar.readthedocs.io/) | [Github](https://github.com/datosgobar/textar))
 * detector-aedes ([Documentación](https://detector-aedes.readthedocs.io/) | [Github](https://github.com/datosgobar/detector-aedes))
 
-## Talleres
 
-* Taller Análisis de Datos 101 ([Github](https://github.com/datosgobar/taller-analisis-datos-101))
-* Taller Análisis Exploratorio de Datos ([Github](https://github.com/datosgobar/taller-analisis-mediaparty-2017))
-* Taller SQL 101 ([Presentación](https://datosgobar.github.io/taller-sql-101/) | [Github](https://github.com/datosgobar/taller-sql-101))
-* Taller de Series de Tiempo ([Github](https://github.com/datosgobar/taller-series-tiempo-mediaparty-2018))
-* Taller Github 101 ([Presentación](https://datosgobar.github.io/taller-github-101) | [Github](https://github.com/datosgobar/taller-github-101))
-* Taller Github 201 ([Presentación](https://datosgobar.github.io/taller-github-201) | [Github](https://github.com/datosgobar/taller-github-201))
-* Taller Repositorios en Github ([Presentación](https://datosgobar.github.io/taller-repos-readmes/) | [Github](https://github.com/datosgobar/taller-repos-readmes))
