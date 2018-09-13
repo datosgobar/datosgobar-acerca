@@ -1,4 +1,4 @@
-# Nuestros productos
+# Herramientas
 
 Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de datos públicos.
 
@@ -6,19 +6,15 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
  
 
-- [Contenidos](#contenidos)
-    - [Recursos y documentos](#recursos-y-documentos)
-    - [Talleres](#talleres)
-- [Proyectos](#proyectos)
-    - [Apertura](#apertura)
-    - [Servicios](#servicios)
-    - [Ciencia de datos](#ciencia-de-datos)
+- [Recursos y documentos](#recursos-y-documentos)
+- [Desarrollos](#desarrollos)
+  - [Apertura](#apertura)
+  - [Servicios](#servicios)
+  - [Herramientas para el análisis de datos](#herramientas-para-el-analisis-de-datos)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Contenidos
-
-### Recursos y documentos
+## Recursos y documentos
 
 * Material introductorio
     - [Kit de Datos Abiertos](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf)
@@ -30,24 +26,24 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
 
 * Política de apertura de datos
     - [Guía para la creación de un nodo de datos abiertos de la Administración Pública Nacional]()
-    - [Kit de Apertura de Datos para Gobiernos Subnacionales]()
+    - [Guía de Apertura de Datos para Gobiernos Subnacionales]()
     - Perfil Regional de Metadatos ([Documentación Español](https://perfil-regional-metadatos.readthedocs.io/) | [Documentación Inglés](https://perfil-regional-metadatos.readthedocs.io/en/latest/) | [Github](https://github.com/datosgobar/perfil-regional-metadatos))
 
-### Talleres
+* Talleres
 
-* Taller Análisis de Datos 101 ([Github](https://github.com/datosgobar/taller-analisis-datos-101))
-* Taller Análisis Exploratorio de Datos ([Github](https://github.com/datosgobar/taller-analisis-mediaparty-2017))
-* Taller SQL 101 ([Presentación](https://datosgobar.github.io/taller-sql-101/) | [Github](https://github.com/datosgobar/taller-sql-101))
-* Taller de Series de Tiempo ([Github](https://github.com/datosgobar/taller-series-tiempo-mediaparty-2018))
-* Taller Github 101 ([Presentación](https://datosgobar.github.io/taller-github-101) | [Github](https://github.com/datosgobar/taller-github-101))
-* Taller Github 201 ([Presentación](https://datosgobar.github.io/taller-github-201) | [Github](https://github.com/datosgobar/taller-github-201))
-* Taller Repositorios en Github ([Presentación](https://datosgobar.github.io/taller-repos-readmes/) | [Github](https://github.com/datosgobar/taller-repos-readmes))
+    * Taller Análisis de Datos 101 ([Github](https://github.com/datosgobar/taller-analisis-datos-101))
+    * Taller Análisis Exploratorio de Datos ([Github](https://github.com/datosgobar/taller-analisis-mediaparty-2017))
+    * Taller SQL 101 ([Presentación](https://datosgobar.github.io/taller-sql-101/) | [Github](https://github.com/datosgobar/taller-sql-101))
+    * Taller de Series de Tiempo ([Github](https://github.com/datosgobar/taller-series-tiempo-mediaparty-2018))
+    * Taller Github 101 ([Presentación](https://datosgobar.github.io/taller-github-101) | [Github](https://github.com/datosgobar/taller-github-101))
+    * Taller Github 201 ([Presentación](https://datosgobar.github.io/taller-github-201) | [Github](https://github.com/datosgobar/taller-github-201))
+    * Taller Repositorios en Github ([Presentación](https://datosgobar.github.io/taller-repos-readmes/) | [Github](https://github.com/datosgobar/taller-repos-readmes))
 
-## Proyectos
+## Desarrollos
 
 ### Apertura
 
-* Portal Andino ([datos.gob.ar](http://datos.gob.ar/) | [Ejemplo desarrollo](http://portal-andino.datos.gob.ar/) | [Landing de producto](http://andino.datos.gob.ar/) | [Documentación](http://portal-andino.readthedocs.io/) | [Github](http://github.com/datosgobar/portal-andino))
+* Portal Andino ([Landing de producto](http://andino.datos.gob.ar/) | [Ejemplo desarrollo](http://portal-andino.datos.gob.ar/) | [Documentación](http://portal-andino.readthedocs.io/) | [Github](http://github.com/datosgobar/portal-andino))
 
 * Herramientas para la apertura de datos
     - pydatajson ([Documentación](https://pydatajson.readthedocs.io/) | [Github](https://github.com/datosgobar/pydatajson))
@@ -69,7 +65,7 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
 
 * API Gateway ([Github](https://github.com/datosgobar/api-gateway))
 
-### Ciencia de datos
+### Herramientas para el análisis de datos
 
 * textar ([Documentación](https://textar.readthedocs.io/) | [Github](https://github.com/datosgobar/textar))
 * detector-aedes ([Documentación](https://detector-aedes.readthedocs.io/) | [Github](https://github.com/datosgobar/detector-aedes))

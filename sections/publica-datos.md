@@ -36,21 +36,22 @@ Para abrir los datos de tu organismo, te proponemos seguir estos pasos:
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
  
-- [**1. Publicá en datos.gob.ar**](#1-publica-en-datosgobar)
-    - [Creá un catálogo de datos abiertos](#crea-un-catalogo-de-datos-abiertos)
-    - [Documentá tus datos](#documenta-tus-datos)
-    - [Sumá tu catálogo a datos.gob.ar](#suma-tu-catalogo-a-datosgobar)
-- [**2. Mejorá la calidad de tus datos**](#2-mejora-la-calidad-de-tus-datos)
-    - [Compartí tus datos en formatos abiertos](#comparti-tus-datos-en-formatos-abiertos)
-    - [Normalizá y enriquecé tus datos](#normaliza-y-enriquece-tus-datos)
-- [**3. Publicá datos como un servicio**](#3-publica-datos-como-un-servicio)
-    - [Documentá y compartí tus servicios de datos](#documenta-y-comparti-tus-servicios-de-datos)
-    - [Sumá tus datos a la API de Series de Tiempo](#suma-tus-datos-a-la-api-de-series-de-tiempo)
-- [**¿Tenés dudas? Escribinos**](#tenes-dudas-escribinos)
+
+- [1. Publicá en datos.gob.ar](#1-publica-en-datosgobar)
+  - [Creá un catálogo de datos abiertos](#crea-un-cat%C3%A1logo-de-datos-abiertos)
+  - [Documentá tus datos](#documenta-tus-datos)
+  - [Sumá tu catálogo a datos.gob.ar](#suma-tu-cat%C3%A1logo-a-datosgobar)
+- [2. Mejorá la calidad de tus datos](#2-mejora-la-calidad-de-tus-datos)
+  - [Compartí tus datos en formatos abiertos](#comparti-tus-datos-en-formatos-abiertos)
+  - [Normalizá y enriquecé tus datos](#normaliza-y-enriquece-tus-datos)
+- [3. Publicá datos como un servicio](#3-publica-datos-como-un-servicio)
+  - [Documentá y compartí tus servicios de datos](#documenta-y-comparti-tus-servicios-de-datos)
+  - [Sumá tus datos a la API de Series de Tiempo](#suma-tus-datos-a-la-api-de-series-de-tiempo)
+- [¿Tenés dudas? Escribinos](#tenes-dudas-escribinos)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
----
+-
 
 ## 1. Publicá en datos.gob.ar
 
