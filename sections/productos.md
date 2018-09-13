@@ -29,8 +29,9 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
     - [Guía para el uso y la publicación de metadatos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html)
 
 * Política de apertura de datos
-    - Perfil Regional de Metadatos ([Documentación Español](https://perfil-regional-metadatos.readthedocs.io/) | [Documentación Inglés](https://perfil-regional-metadatos.readthedocs.io/en/latest/) | [Github](https://github.com/datosgobar/perfil-regional-metadatos))
+    - [Guía para la creación de un nodo de datos abiertos de la Administración Pública Nacional]()
     - [Kit de Apertura de Datos para Gobiernos Subnacionales]()
+    - Perfil Regional de Metadatos ([Documentación Español](https://perfil-regional-metadatos.readthedocs.io/) | [Documentación Inglés](https://perfil-regional-metadatos.readthedocs.io/en/latest/) | [Github](https://github.com/datosgobar/perfil-regional-metadatos))
 
 ### Talleres
 
