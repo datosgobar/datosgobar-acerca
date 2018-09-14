@@ -2,20 +2,6 @@
 
 Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de datos públicos.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
- 
-
-- [Recursos y documentos](#recursos-y-documentos)
-- [Desarrollos](#desarrollos)
-    - [Apertura](#apertura)
-    - [Servicios](#servicios)
-    - [Herramientas para el análisis de datos](#herramientas-para-el-analisis-de-datos)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
----
-
 ## Recursos y documentos
 
 * Material introductorio

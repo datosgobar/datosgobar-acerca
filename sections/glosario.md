@@ -2,26 +2,6 @@
 
 Acá te explicamos algunos términos de uso frecuente en la comunidad de datos abiertos.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
- 
-
-- [Términos generales](#terminos-generales)
-    - [Dato](#dato)
-    - [Dato público](#dato-publico)
-    - [Dato abierto](#dato-abierto)
-    - [Activo de datos](#activo-de-datos)
-    - [Información](#informacion)
-    - [Metadatos](#metadatos)
-- [Términos de un catálogo](#terminos-de-un-catalogo)
-    - [Catálogo de datos](#catalogo-de-datos)
-    - [Datasets o conjuntos de datos](#datasets-o-conjuntos-de-datos)
-    - [Distribuciones o recursos](#distribuciones-o-recursos)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
----
-
 ## Términos generales
 
 ### Dato
