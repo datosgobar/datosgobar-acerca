@@ -1,0 +1,152 @@
+
+{% extends "gobar_page.html" %} {% block page %}
+
+<div class="container-fluid" id="template-config-container">
+    <div class="restricted-max-width ">
+        <div id="template-config" class="col-xs-12 col-md-10 col-md-offset-1 about-template-container" style="padding: 0 60px;">
+
+            <br/>
+            <div id="pkg-path">
+                <a href="/">Datos Argentina</a> / Herramientas
+            </div>
+
+            <style>
+            #template-config-container #template-config p, #template-config-container #template-config label {
+                margin: 0 0 15px 0;
+            }
+            li {
+                padding: 5px;
+            }
+            #template-config-container #template-config h2 {
+                font-size: 27px;
+                font-weight: bold;
+            }
+            .h3, h3 {
+                font-size: 24px;
+            }
+            .h1, .h2, .h3, h1, h2, h3 {
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }
+            #template-config-container #template-config h2 {
+                margin-top: 60px;
+                margin-bottom: 15px;
+            }
+            ol, ul {
+                margin-top: 0;
+                margin-bottom: 20px;
+                padding-left: 20px;
+            }
+            </style>
+
+<h1>Herramientas</h1>
+<p>Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de datos públicos.</p>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+<ul>
+<li><a href="#recursos-y-documentos">Recursos y documentos</a></li>
+<li><a href="#desarrollos">Desarrollos</a><ul>
+<li><a href="#apertura">Apertura</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#herramientas-para-el-analisis-de-datos">Herramientas para el análisis de datos</a></li>
+</ul>
+</li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<hr />
+<h2>Recursos y documentos</h2>
+<ul>
+<li>
+<p>Material introductorio</p>
+<ul>
+<li><a href="https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf"><strong>Kit de Datos Abiertos</strong></a>. Introducción a los datos abiertos, qué son y cuáles son los recursos disponibles para publicar datos.</li>
+</ul>
+</li>
+<li>
+<p>Guías de buenas prácticas</p>
+<ul>
+<li><a href="https://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html"><strong>Guía para la publicación de datos en formatos abiertos</strong></a>. Recomendaciones para publicar datos en formatos abiertos, estructurar bien una tabla, nombrar archivos y columnas, usar estándares básicos y trabajar con planillas de cálculo.</li>
+<li><a href="https://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html"><strong>Guía para la identificación y uso de entidades interoperables</strong></a>. Recomendaciones y referencias para nombrar entidades en activos de datos, usando sus nombres y códigos oficiales.</li>
+<li><a href="https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html"><strong>Guía para el uso y la publicación de metadatos</strong></a>. Recomendaciones y estándares para documentar activos de datos.</li>
+</ul>
+</li>
+<li>
+<p>Guías de implementación</p>
+<ul>
+<li><a href="http://datos.gob.ar/acerca/seccion/Publica%20datos"><strong>Guía de apertura de datos para organismos de la Administración Pública Nacional</strong></a>. Paso a paso que pueden seguir los organismos de la APN para crear su catálogo de datos y publicar sus datos abiertos en <a href="http://datos.gob.ar">datos.gob.ar</a>.
+<!-- - <a href="https://paquete-apertura-datos.readthedocs.io/es/stable/guia_subnacionales.html">Guía de apertura de datos para gobiernos subnacionales</a> --></li>
+</ul>
+</li>
+<li>
+<p>Estándares</p>
+<ul>
+<li><strong>Perfil Regional de Metadatos</strong> (<a href="https://perfil-regional-metadatos.readthedocs.io/">Documentación Español</a> | <a href="https://perfil-regional-metadatos.readthedocs.io/en/latest/">Documentación Inglés</a> | <a href="https://github.com/datosgobar/perfil-regional-metadatos">Github</a>). Iniciativa elaborada con el Grupo de Datos Abiertos de la Red GEALC de la Organización de Estados Americanos para construir un perfil de metadatos base para los países de la región.</li>
+</ul>
+</li>
+<li>
+<p>Talleres</p>
+<ul>
+<li><strong>Taller Análisis de Datos 101</strong> (<a href="https://github.com/datosgobar/taller-analisis-datos-101">Github</a>). Taller introductorio al análisis de datos con Python, presentado en la PyconAR 2016.</li>
+<li><strong>Taller Análisis Exploratorio de Datos</strong> (<a href="https://github.com/datosgobar/taller-analisis-mediaparty-2017">Github</a>). Taller introductorio al análisis exploratorio de datos, presentado en la MediaParty 2017.</li>
+<li><strong>Taller SQL 101</strong> (<a href="https://datosgobar.github.io/taller-sql-101/">Presentación</a> | <a href="https://github.com/datosgobar/taller-sql-101">Github</a>). Taller interno de introducción a SQL.</li>
+<li><strong>Taller de Series de Tiempo</strong> (<a href="https://github.com/datosgobar/taller-series-tiempo-mediaparty-2018">Github</a>). Taller de uso de la API de Series de Tiempo en distintos entornos de trabajo con datos, presentado en la MediaParty 2018.</li>
+<li><strong>Taller Github 101</strong> (<a href="https://datosgobar.github.io/taller-github-101">Presentación</a> | <a href="https://github.com/datosgobar/taller-github-101">Github</a>). Taller interno de introducción al uso de Github.</li>
+<li><strong>Taller Github 201</strong> (<a href="https://datosgobar.github.io/taller-github-201">Presentación</a> | <a href="https://github.com/datosgobar/taller-github-201">Github</a>). Taller interno de conflictos de edición en Github y cómo manejarlos.</li>
+<li><strong>Taller Repositorios en Github</strong> (<a href="https://datosgobar.github.io/taller-repos-readmes/">Presentación</a> | <a href="https://github.com/datosgobar/taller-repos-readmes">Github</a>). Taller interno sobre consejos, tips, templates y políticas para estructurar repositorios y escribir buenos readmes.</li>
+</ul>
+</li>
+</ul>
+<h2>Desarrollos</h2>
+<h3>Apertura</h3>
+<ul>
+<li>
+<p><strong>Portal Andino</strong> (<a href="http://andino.datos.gob.ar/">Landing de producto</a> | <a href="http://portal-andino.datos.gob.ar/">Ejemplo desarrollo</a> | <a href="http://portal-andino.readthedocs.io/">Documentación</a> | <a href="http://github.com/datosgobar/portal-andino">Github</a>). Distribución de CKAN desarrollada por la República Argentina dockerizada, fácil de instalar y compatible con el Perfil Nacional de Metadatos de la Política de Apertura de Datos.</p>
+</li>
+<li>
+<p>Herramientas para la apertura de datos</p>
+<ul>
+<li><strong>pydatajson</strong> (<a href="https://pydatajson.readthedocs.io/">Documentación</a> | <a href="https://github.com/datosgobar/pydatajson">Github</a>). Librería para analizar, generar y validar metadatos en formato data.json.</li>
+<li><strong>monitoreo-apertura</strong> (<a href="https://github.com/datosgobar/monitoreo-apertura">Github</a>). Aplicación web para monitoreo de la red de nodos de datos abiertos de la Administración Pública Nacional.</li>
+<li><strong>data-cleaner</strong> (<a href="https://data-cleaner.readthedocs.io/">Documentación</a> | <a href="https://github.com/datosgobar/pydatajson">Github</a>). Librería en python para para limpieza de datos, según estándares del Equipo de Datos Argentina.</li>
+<li><strong>django-datajsonar</strong> (<a href="https://github.com/datosgobar/django-datajsonar">Github</a>). Aplicación Django para administrar acciones sobre la red de nodos de catalogos, basada en el perfil de metadatos del Paquete de Apertura de Datos.</li>
+</ul>
+</li>
+</ul>
+<h3>Servicios</h3>
+<ul>
+<li>
+<p>Georef</p>
+<ul>
+<li><strong>API del Servicio de Normalización de Datos Geográficos de Argentina</strong> (<a href="http://apis.datos.gob.ar/georef/">Documentación</a> | <a href="https://github.com/datosgobar/georef-ar-api">Github</a>). Aplicación en Django y ElasticSearch de la API.</li>
+</ul>
+</li>
+<li>
+<p>Series de Tiempo</p>
+<ul>
+<li><strong>API de Series de Tiempo de la República Argentina</strong> (<a href="https://apis.datos.gob.ar/series">Documentación</a> | <a href="https://github.com/datosgobar/series-tiempo-ar-api">Github</a>). Aplicación en Django y ElasticSearch de la API de series de tiempo basada en el Perfil Nacional de Metadatos de la política de apertura de datos de la APN.</li>
+<li><strong>Explorador de Series de Tiempo</strong> (<a href="http://datos.gob.ar/series">datos.gob.ar/series</a> | <a href="https://datosgobar.github.io/series-tiempo-ar-explorer/">Ejemplo desarrollo</a> | <a href="https://github.com/datosgobar/series-tiempo-ar-explorer">Github</a>). Aplicación javascript para la búsqueda y exploración de series de tiempo, usando la API de Series de Tiempo.</li>
+<li><strong>Landing de Series de Tiempo</strong> (<a href="https://www.minhacienda.gob.ar/datos/">Hacienda</a> | <a href="https://datosgobar.github.io/series-tiempo-ar-landing/">Ejemplo desarrollo</a> | <a href="https://github.com/datosgobar/series-tiempo-ar-landing">Github</a>). Landing web para armar un dashboard de indicadores con datos y gráficos de la API de Series de Tiempo.</li>
+<li><strong>Scraper de Series de Tiempo en Excel</strong> (<a href="https://github.com/datosgobar/series-tiempo-ar-scraping">Github</a>). ETL y servidor web para scrapear series de tiempo de Excels semi-estructurados y transformarlos en distribuciones de formato abierto, basado en una extensión experimental del Perfil Nacional de Metadatos de la política de apertura de datos de la APN.</li>
+<li><strong>Generador de Llamadas a la API</strong> (<a href="https://datosgobar.github.io/series-tiempo-ar-call-generator/">Aplicación</a> | <a href="https://github.com/datosgobar/series-tiempo-ar-call-generator">Github</a>). Front liviano y sencillo para explorar las series de tiempo de la API de datos.gob.ar y conformar URLs de consulta.</li>
+</ul>
+</li>
+<li>
+<p><strong>API Gateway</strong> (<a href="https://github.com/datosgobar/api-gateway">Github</a>). Aplicación en Django y Kong para administrar cuotas y ruteo de APIs.</p>
+</li>
+</ul>
+<h3>Herramientas para el análisis de datos</h3>
+<ul>
+<li><strong>textar</strong> (<a href="https://textar.readthedocs.io/">Documentación</a> | <a href="https://github.com/datosgobar/textar">Github</a>). Paquete en python para análisis, clasificación y recuperación de textos, utilizado por el equipo de Datos Argentina.</li>
+<li><strong>detector-aedes</strong> (<a href="https://detector-aedes.readthedocs.io/">Documentación</a> | <a href="https://github.com/datosgobar/detector-aedes">Github</a>). Algoritmos de Visión Computacional para analizar imágenes de Ovisensores.</li>
+</ul>
+
+<br>
+<br>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

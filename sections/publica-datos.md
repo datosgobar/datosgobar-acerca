@@ -4,24 +4,24 @@
 
     <h2>Datos abiertos: qué son y por qué tu organismo quiere abrirlos</h2>
 
-    <p>Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos <em>están publicados</em>, y además no es lo mismo <em>publicar datos</em> que <em>abrir datos</em>.</p>
+    <p>Los datos públicos son todos aquellos que el sector público genera y/o administra para el cumplimiento de sus misiones y funciones. No todos los datos públicos <em>están publicados</em>; y no es lo mismo <em>publicar datos</em> que <em>abrir datos</em>.</p>
 
     <p>La diferencia entre un dato <em>publicado</em> y uno <em>abierto</em> es <strong>todo lo que hace que el dato público sea valioso y fácil de reutilizar</strong> por terceros dentro y fuera del sector público, o incluso por uno mismo:</p>
 
     <ul>
-    <li>Que sea fácil de encontrar</li>
-    <li>Que sea fácil de usar por distintos usuarios, para distintos usos y mediante distintas herramientas</li>
-    <li>Que se pueda cruzar con otros datos (públicos o no, abiertos o no)</li>
-    <li>Que se pueda integrar en sistemas y aplicaciones</li>
+    <li>Que sea fácil de encontrar.</li>
+    <li>Que sea fácil de usar por distintos usuarios, para distintos usos y mediante distintas herramientas.</li>
+    <li>Que se pueda cruzar con otros datos (públicos o no, abiertos o no).</li>
+    <li>Que se pueda integrar en sistemas y aplicaciones.</li>
     </ul>
 
     <p>Abrir los datos de tu organismo te ayuda a:</p>
 
     <ul>
-    <li>Bajar los costos de compartir datos</li>
-    <li>Organizar tu flujo de trabajo con datos</li>
-    <li>Transparentar la gestión</li>
-    <li>Promover la generación de valor agregado por terceros</li>
+    <li>Bajar los costos de compartir datos.</li>
+    <li>Organizar tu flujo de trabajo con datos.</li>
+    <li>Transparentar la gestión.</li>
+    <li>Promover la generación de valor agregado por terceros.</li>
     </ul>
 
     <p>Si querés saber más sobre datos abiertos podés consultar nuestro <strong><a href="https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf">Kit de Datos Abiertos</a></strong>.</p>
@@ -31,41 +31,42 @@
 
 **Todos los archivos de datos, servicios web de datos y aplicaciones web diseñadas para la descarga de datos** que tu organismo tiene en su propiedad digital en internet o en [argentina.gob.ar](https://www.argentina.gob.ar/) son datos públicos que esperan ser abiertos.
 
-Para abrir los datos de tu organismo, te proponemos seguir estos pasos:
+Para abrir los datos de tu organismo, te proponemos estos pasos:
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
  
 
 - [1. Publicá en datos.gob.ar](#1-publica-en-datosgobar)
-  - [Creá un catálogo de datos abiertos](#crea-un-cat%C3%A1logo-de-datos-abiertos)
-  - [Documentá tus datos](#documenta-tus-datos)
-  - [Sumá tu catálogo a datos.gob.ar](#suma-tu-cat%C3%A1logo-a-datosgobar)
+    - [Creá un catálogo de datos abiertos](#crea-un-cat%C3%A1logo-de-datos-abiertos)
+    - [Documentá tus datos](#documenta-tus-datos)
+    - [Sumá tu catálogo a datos.gob.ar](#suma-tu-cat%C3%A1logo-a-datosgobar)
 - [2. Mejorá la calidad de tus datos](#2-mejora-la-calidad-de-tus-datos)
-  - [Compartí tus datos en formatos abiertos](#comparti-tus-datos-en-formatos-abiertos)
-  - [Normalizá y enriquecé tus datos](#normaliza-y-enriquece-tus-datos)
+    - [Compartí tus datos en formatos abiertos](#comparti-tus-datos-en-formatos-abiertos)
+    - [Normalizá y enriquecé tus datos](#normaliza-y-enriquece-tus-datos)
 - [3. Publicá datos como un servicio](#3-publica-datos-como-un-servicio)
-  - [Documentá y compartí tus servicios de datos](#documenta-y-comparti-tus-servicios-de-datos)
-  - [Sumá tus datos a la API de Series de Tiempo](#suma-tus-datos-a-la-api-de-series-de-tiempo)
+    - [Documentá y compartí tus servicios de datos](#documenta-y-comparti-tus-servicios-de-datos)
+    - [Sumá tus datos a la API de Series de Tiempo](#suma-tus-datos-a-la-api-de-series-de-tiempo)
 - [¿Tenés dudas? Escribinos](#tenes-dudas-escribinos)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
--
+---
 
 ## 1. Publicá en datos.gob.ar
 
 El Portal Nacional de Datos Abiertos (**[datos.gob.ar](http://datos.gob.ar)**) es el punto de acceso para buscar y acceder fácilmente a los datos que publican los organismos de la Administración Pública Nacional.
 
-Si querés incorporar los datos de tu organismo al Portal Nacional, acá te contamos los pasos del proceso para hacerlo.
+Si querés incorporar los datos de tu organismo al Portal Nacional, acá te contamos los pasos del proceso para hacerlo:
 
 ### Creá un catálogo de datos abiertos
 
-El primer paso para incorporarte a datos.gob.ar es documentar los datos que tenés y dónde están alojados, y para eso necesitamos que confecciones un catálogo de datos.
+El primer paso para incorporarte a datos.gob.ar es inventariar los datos que tenés y dónde están alojados, y para eso necesitamos que confecciones un catálogo de datos. 
 
-Un catálogo de datos abiertos es una lista de activos de datos y sus metadatos, que te describen qué son y cómo podés usarlos. **Facilita encontrar y entender los datos publicados** por organismos del Estado.
+Un catálogo de datos abiertos es una lista de activos de datos y sus metadatos, que te describen qué son y cómo podés usarlos. **Facilita encontrar y entender los datos publicados por organismos del Estado**.
 
-Para tener un catálogo, no necesitás tener un portal web. Podés crear tu catálogo de varias maneras:
+Para armar un catálogo, no necesitás tener un portal web; podés crearlo  de varias maneras: 
+
 
 * **Instalando un Portal Andino**. Instalando un portal web de datos abiertos (Ej: [https://datos.agroindustria.gob.ar](https://datos.agroindustria.gob.ar) - portal de datos abiertos del Ministerio de Agroindustria). Leé más sobre qué es y cómo instalar **[Portal Andino](http://andino.datos.gob.ar/)**.
 * **Completando un Excel**. Subiendo un archivo Excel a una URL (Ej: [http://estadisticas.produccion.gob.ar/catalogo.xlsx](http://estadisticas.produccion.gob.ar/catalogo.xlsx) - catálogo de la Secretaría de Transformación Productiva).
