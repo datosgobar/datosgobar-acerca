@@ -60,19 +60,19 @@ Para armar un catálogo, no necesitás tener un portal web; podés crearlo  de v
 
 Ver más [ejemplos de catálogos](http://infra.datos.gob.ar/catalog/modernizacion/dataset/8/distribution/8.1/download/nodos.csv).
 
-Leé más sobre cómo [crear un catálogo sin usar Portal Andino](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#otros-catalogos).
+Leé más sobre cómo [crear un catálogo sin usar Portal Andino](https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#otros-catalogos).
 
 ### Documentá tus datos
 
 **Para que los datos sean abiertos, es fundamental documentarlos** como *datasets* en tu catálogo de datos abiertos.
 
-Leé más sobre cómo documentar tus datos en nuestra **[Guía para el uso y la publicación de metadatos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html)**.
+Leé más sobre cómo documentar tus datos en nuestra **[Guía para el uso y la publicación de metadatos](https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/)**.
 
 El [equipo de Datos](https://datosgobar.github.io/) del Ministerio de Modernización está para ayudarte en este proceso contactanos a [datos@modernizacion.gob.ar](mailto:datos@modernizacion.gob.ar) para que te asistamos en cómo hacerlo mejor y cómo planificar tus próximos pasos.
 
 ### Sumá tu catálogo a datos.gob.ar
 
-Si tu catálogo cumple con el **[Perfil Nacional de Metadatos para Datos Abiertos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#campos-del-perfil)** puede integrarse a datos.gob.ar. Cualquier modificación en tu catálogo se verá reflejada automáticamente en datos.gob.ar.
+Si tu catálogo cumple con el **[Perfil Nacional de Metadatos para Datos Abiertos](https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#campos-del-perfil)** puede integrarse a datos.gob.ar. Cualquier modificación en tu catálogo se verá reflejada automáticamente en datos.gob.ar.
 
 * Escribinos a [datos@modernizacion.gob.ar](mailto:datos@modernizacion.gob.ar) con la URL de tu catálogo para que te sumemos a **[datos.gob.ar](http://datos.gob.ar)**.
 * Si sos desarrollador, y querés ver si tu catalogo está listo para estar en datos.gob.ar [validalo con **pydatajson**](https://pydatajson.readthedocs.io/es/stable/MANUAL.html#validacion).
@@ -89,7 +89,7 @@ Una vez que tenés un catálogo de datos abiertos podés mejorar la calidad de t
 
 La diferencia entre un dato *publicado* y uno *abierto* es que este debe ser fácil de utilizar por distintos usuarios, para distintos usos y mediante distintas herramientas.
 
-Leé sobre cómo publicar en formatos abiertos en nuestra **[Guía para la publicación de datos en formatos abiertos](http://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html)**.
+Leé sobre cómo publicar en formatos abiertos en nuestra **[Guía para la publicación de datos en formatos abiertos](https://datosgobar.github.io/paquete-apertura-datos/guia_abiertos/)**.
 
 Si sos desarrollador y querés implementar rutinas de transformación y limpieza de datos que sigan estas buenas prácticas, podés usar **[Data Cleaner](http://data-cleaner.readthedocs.io/)**.
 
@@ -97,7 +97,7 @@ Si sos desarrollador y querés implementar rutinas de transformación y limpieza
 
 Para que tus datos se puedan cruzar fácilmente con otros es necesario que sigas estándares para llamar a las mismas cosas, de la misma manera.
 
-Leé sobre cómo estandarizar tus datos en nuestra **[Guía para la identificación y uso de entidades interoperables](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html)**.
+Leé sobre cómo estandarizar tus datos en nuestra **[Guía para la identificación y uso de entidades interoperables](https://datosgobar.github.io/paquete-apertura-datos/guia_interoperables/)**.
 
 Si tenés datos con provincias, departamentos, municipios, localidades, calles o coordenadas podés usar la **[API del Servicio de Normalización de Datos Geográficos](http://apis.datos.gob.ar/georef/)** para normalizar o enriquecer entidades geográficas de la Argentina.
 
@@ -119,7 +119,7 @@ Si tenés un servicio de datos que querés compartir públicamente:
 
 Te recomendamos revisar [Read the Docs](http://apis.datos.gob.ar/series/) y [OpenAPI](https://swagger.io/) como soporte para tu documentación, podés ver nuestro [ejemplo de Series de Tiempo](https://github.com/datosgobar/series-tiempo-ar-api) y nuestro [ejemplo del Servicio de Normalización de Datos Geográficos](https://github.com/datosgobar/georef-ar-api).
 
-* Ayudá a que sea fácil de encontrar: sumá la URL de la documentación del servicio al catálogo de datos de tu organismo e [indicá que es una API en tus metadatos](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#distribucion-distribution).
+* Ayudá a que sea fácil de encontrar: sumá la URL de la documentación del servicio al catálogo de datos de tu organismo e [indicá que es una API en tus metadatos](https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#distribucion-distribution).
 * Cuidá tu infraestructura: publicá la base de datos completa en formatos abiertos junto con el servicio (Ej.: [dataset de Series de Tiempo](http://datos.gob.ar/dataset/modernizacion-base-series-tiempo-administracion-publica-nacional)).
 
 ### Sumá tus datos a la API de Series de Tiempo
@@ -127,14 +127,14 @@ Te recomendamos revisar [Read the Docs](http://apis.datos.gob.ar/series/) y [Ope
 Si publicás indicadores o estadísticas con evolución cronológica (como el [nivel de actividad](http://datos.gob.ar/series/api/series/?ids=143.3_NO_PR_2004_A_21)), podés sumarlos fácilmente a la **[API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar/series/)** y:
 
 * Visualizarlas en el **[Explorador de Series de Tiempo](http://datos.gob.ar/series)** y compartir tus gráficos.
-* [Integrar consultas a tus datos en planillas de cálculo](https://series-tiempo-ar-api.readthedocs.io/es/latest/spreadsheet_integration/).
-* [Programar consultas a tus datos](https://series-tiempo-ar-api.readthedocs.io/es/latest/python_usage/) en distintos lenguajes.
+* [Integrar consultas a tus datos en planillas de cálculo](https://datosgobar.github.io/series-tiempo-ar-api/spreadsheet_integration/).
+* [Programar consultas a tus datos](https://datosgobar.github.io/series-tiempo-ar-api/python_usage/) en distintos lenguajes.
 * Armar tableros de seguimiento como [este ejemplo](https://datosgobar.github.io/series-tiempo-ar-landing/) usando [este proyecto](https://github.com/datosgobar/series-tiempo-ar-landing).
 
 Para sumar tus series a la API:
 
-* Publicá tus indicadores o estadísticas en archivos CSV, siguiendo [este formato estándar](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#distribucion-de-series-de-tiempo).
-* [Documentá tus archivos CSV con series de tiempo](https://paquete-apertura-datos.readthedocs.io/es/stable/guia_metadatos.html#documentar-un-dataset-de-series-de-tiempo) en tu **catálogo de datos abiertos**.
+* Publicá tus indicadores o estadísticas en archivos CSV, siguiendo [este formato estándar](https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#distribucion-de-series-de-tiempo).
+* [Documentá tus archivos CSV con series de tiempo](https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#documentar-un-dataset-de-series-de-tiempo) en tu **catálogo de datos abiertos**.
 * [Avisanos que tu catálogo tiene series de tiempo](mailto:datos@modernizacion.gob.ar), para que lo agreguemos a la API.
 
 Si sos desarrollador, tenés tus series de tiempo en archivos Excel y es difícil convertirlos al formato estándar en CSV, podés usar el **[Scraper de Series de Tiempo](https://github.com/datosgobar/series-tiempo-ar-scraping)**.
