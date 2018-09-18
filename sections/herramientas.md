@@ -1,6 +1,6 @@
 # Herramientas
 
-Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de datos públicos.
+¿Querés usar o abrir datos?, acá podes encontrar algunas herramientas que te pueden ser de ayuda.
 
 ## Recursos y documentos
 
