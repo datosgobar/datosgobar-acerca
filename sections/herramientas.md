@@ -6,7 +6,7 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
 
 * Material introductorio
     - [**Kit de Datos Abiertos**](https://www.argentina.gob.ar/sites/default/files/2._kit_de_datos_abiertos.pdf). Introducción a los datos abiertos, qué son y cuáles son los recursos disponibles para publicar datos.
-    - [**Glosario**](https://datosgobar.github.io/paquete-apertura-datos/glosario/)
+    - [**Glosario**](https://datosgobar.github.io/paquete-apertura-datos/glosario/). Términos y conceptos utilizados en nuestros recursos y documentos.
 
 * Guías de buenas prácticas
     - [**Guía para la publicación de datos en formatos abiertos**](https://datosgobar.github.io/paquete-apertura-datos/guia_abiertos/). Recomendaciones para publicar datos en formatos abiertos, estructurar bien una tabla, nombrar archivos y columnas, usar estándares básicos y trabajar con planillas de cálculo.
@@ -15,10 +15,10 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
 
 * Guías de implementación
     - [**Guía para la apertura de datos en organismos de la Administración Pública Nacional**](http://datos.gob.ar/acerca/seccion/Publica%20datos). Paso a paso que pueden seguir los organismos de la APN para crear su catálogo de datos y publicar sus datos abiertos en [datos.gob.ar](http://datos.gob.ar).
-    - [Guía para la apertura de datos en gobiernos subnacionales](https://datosgobar.github.io/paquete-apertura-datos/guia_subnacionales/). Guía de implementación de políticas de apertura de datos para provincias y municipios de Argentina.
+    - [**Guía para la apertura de datos en gobiernos subnacionales**](https://datosgobar.github.io/paquete-apertura-datos/guia_subnacionales/). Guía de implementación de políticas de apertura de datos para provincias y municipios de Argentina.
 
 * Estándares
-    - **Perfil Regional de Metadatos** ([Documentación Español](https://perfil-regional-metadatos.readthedocs.io/) | [Documentación Inglés](https://perfil-regional-metadatos.readthedocs.io/en/latest/) | [Github](https://github.com/datosgobar/perfil-regional-metadatos)). Iniciativa elaborada con el Grupo de Datos Abiertos de la Red GEALC de la Organización de Estados Americanos para construir un perfil de metadatos base para los países de la región.
+    - [**Perfil Regional de Metadatos**](https://perfil-regional-metadatos.readthedocs.io/) ([En Inglés](https://perfil-regional-metadatos.readthedocs.io/en/latest/) | [Github](https://github.com/datosgobar/perfil-regional-metadatos)). Iniciativa elaborada con el Grupo de Datos Abiertos de la Red GEALC de la Organización de Estados Americanos para construir un perfil de metadatos base para los países de la región.
 
 * Talleres
     * **Taller Análisis de Datos 101** ([Github](https://github.com/datosgobar/taller-analisis-datos-101)). Taller introductorio al análisis de datos con Python, presentado en la PyconAR 2016.
@@ -44,14 +44,14 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
 ### Servicios
 
 * Georef
-    - **API del Servicio de Normalización de Datos Geográficos de Argentina** ([Documentación](http://apis.datos.gob.ar/georef/) | [Github](https://github.com/datosgobar/georef-ar-api )). Aplicación en Django y ElasticSearch de la API.
+    - **API del Servicio de Normalización de Datos Geográficos de Argentina** ([Documentación](http://apis.datos.gob.ar/georef/) | [Github](https://github.com/datosgobar/georef-ar-api )). Normaliza nombres de provincias, departamentos, municipios, otras unidades territoriales de la Argentina, calles y direcciones. Enriquece datasets con coordenadas agregando las unidades territoriales que las contienen.
 
 * Series de Tiempo
-    - **API de Series de Tiempo de la República Argentina** ([Documentación](https://apis.datos.gob.ar/series) | [Github](https://github.com/datosgobar/series-tiempo-ar-api)). Aplicación en Django y ElasticSearch de la API de series de tiempo basada en el Perfil Nacional de Metadatos de la política de apertura de datos de la APN.
-    - **Explorador de Series de Tiempo** ([datos.gob.ar/series](http://datos.gob.ar/series) | [Ejemplo desarrollo](https://datosgobar.github.io/series-tiempo-ar-explorer/) | [Github](https://github.com/datosgobar/series-tiempo-ar-explorer)). Aplicación javascript para la búsqueda y exploración de series de tiempo, usando la API de Series de Tiempo.
-    - **Landing de Series de Tiempo** ([Hacienda](https://www.minhacienda.gob.ar/datos/) | [Ejemplo desarrollo](https://datosgobar.github.io/series-tiempo-ar-landing/) | [Github](https://github.com/datosgobar/series-tiempo-ar-landing)). Landing web para armar un dashboard de indicadores con datos y gráficos de la API de Series de Tiempo.
+    - **API de Series de Tiempo de la República Argentina** ([Documentación](https://apis.datos.gob.ar/series) | [Github](https://github.com/datosgobar/series-tiempo-ar-api)). Expone recursos para buscar y consultar indicadores con evolución temporal de organismos de la Administración Pública Nacional, realizando filtros y operaciones sobre ellos.
+    - [**Explorador de Series de Tiempo**](http://datos.gob.ar/series) ([Ejemplo desarrollo](https://datosgobar.github.io/series-tiempo-ar-explorer/) | [Github](https://github.com/datosgobar/series-tiempo-ar-explorer)). Interfaz web para buscar, visualizar y compartir indicadores disponibles en la API de Series de Tiempo.
+    - **Landing de Series de Tiempo** ([Ministerio de Hacienda](https://www.minhacienda.gob.ar/datos/) | [Ejemplo desarrollo](https://datosgobar.github.io/series-tiempo-ar-landing/) | [Github](https://github.com/datosgobar/series-tiempo-ar-landing)). Tablero de indicadores y gráficos de la API de Series de Tiempo, fácil de configurar y personalizar para crear diferentes instancias.
     - **Scraper de Series de Tiempo en Excel** ([Github](https://github.com/datosgobar/series-tiempo-ar-scraping)). Rutina para la extracción y transformación de series de tiempo desde Excels semi-estructurados hacia distribuciones de formato abierto, basado en una extensión experimental del Perfil Nacional de Metadatos de la política de apertura de datos de la APN.
-    - **Generador de Llamadas a la API** ([Aplicación](https://datosgobar.github.io/series-tiempo-ar-call-generator/) | [Github](https://github.com/datosgobar/series-tiempo-ar-call-generator)). Experiencia web liviana y sencilla para explorar las series de tiempo de la API de datos.gob.ar y conformar URLs de consulta.
+    - [**Generador de Llamadas a la API**](https://datosgobar.github.io/series-tiempo-ar-call-generator/) ([Github](https://github.com/datosgobar/series-tiempo-ar-call-generator)). Interfaz web para buscar series de tiempo de la API y construir URLs de consulta.
 
 * **API Gateway** ([Github](https://github.com/datosgobar/api-gateway)). Aplicación en Django y Kong para administrar cuotas y ruteo de APIs.
 
