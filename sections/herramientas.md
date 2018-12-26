@@ -9,13 +9,13 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
     - [**Glosario**](https://datosgobar.github.io/paquete-apertura-datos/glosario/). Términos y conceptos utilizados en nuestros recursos y documentos.
 
 * Guías de buenas prácticas
-    - [**Guía para la publicación de datos en formatos abiertos**](https://datosgobar.github.io/paquete-apertura-datos/guia_abiertos/). Recomendaciones para publicar datos en formatos abiertos, estructurar bien una tabla, nombrar archivos y columnas, usar estándares básicos y trabajar con planillas de cálculo.
-    - [**Guía para la identificación y uso de entidades interoperables**](https://datosgobar.github.io/paquete-apertura-datos/guia_interoperables/). Recomendaciones y referencias para nombrar entidades en activos de datos, usando sus nombres y códigos oficiales.
-    - [**Guía para el uso y la publicación de metadatos**](https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/). Recomendaciones y estándares para documentar activos de datos.
+    - [**Guía para la publicación de datos en formatos abiertos**](https://datosgobar.github.io/paquete-apertura-datos/guia-abiertos/). Recomendaciones para publicar datos en formatos abiertos, estructurar bien una tabla, nombrar archivos y columnas, usar estándares básicos y trabajar con planillas de cálculo.
+    - [**Guía para la identificación y uso de entidades interoperables**](https://datosgobar.github.io/paquete-apertura-datos/guia-interoperables/). Recomendaciones y referencias para nombrar entidades en activos de datos, usando sus nombres y códigos oficiales.
+    - [**Guía para el uso y la publicación de metadatos**](https://datosgobar.github.io/paquete-apertura-datos/guia-metadatos/). Recomendaciones y estándares para documentar activos de datos.
 
 * Guías de implementación
-    - [**Guía para la apertura de datos en organismos de la Administración Pública Nacional**](http://datos.gob.ar/acerca/seccion/Publica%20datos). Paso a paso que pueden seguir los organismos de la APN para crear su catálogo de datos y publicar sus datos abiertos en [datos.gob.ar](http://datos.gob.ar).
-    - [**Guía para la apertura de datos en gobiernos subnacionales**](https://datosgobar.github.io/paquete-apertura-datos/guia_subnacionales/). Guía de implementación de políticas de apertura de datos para provincias y municipios de Argentina.
+    - [**Guía para la apertura de datos en organismos de la Administración Pública Nacional**](http://datos.gob.ar/acerca/seccion/Publicá%20datos). Paso a paso que pueden seguir los organismos de la APN para crear su catálogo de datos y publicar sus datos abiertos en [datos.gob.ar](http://datos.gob.ar).
+    - [**Guía para la apertura de datos en gobiernos provinciales y municipales**](https://datosgobar.github.io/paquete-apertura-datos/guia-subnacionales/). Guía de implementación de políticas de apertura de datos para provincias y municipios de Argentina.
 
 * Estándares
     - [**Perfil Regional de Metadatos**](https://perfil-regional-metadatos.readthedocs.io/) ([En Inglés](https://perfil-regional-metadatos.readthedocs.io/en/latest/) | [Github](https://github.com/datosgobar/perfil-regional-metadatos)). Iniciativa elaborada con el Grupo de Datos Abiertos de la Red GEALC de la Organización de Estados Americanos para construir un perfil de metadatos base para los países de la región.
