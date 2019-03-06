@@ -12,5 +12,5 @@ La [resolución 538/2013](http://www.infoleg.gob.ar/infolegInternet/anexos/21500
 
 ## Régimen de Acceso a la Información Pública
 
-El [decreto 1172/2003](http://infoleg.gov.ar/infolegInternet/anexos/90000-94999/90763/norma.htm) establece el Reglamento General del Acceso a la Información Pública para el Poder Ejecutivo Nacional.
+[Ley 27275](http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265949/norma.htm) de Derecho de Acceso a la Información Pública.
 
