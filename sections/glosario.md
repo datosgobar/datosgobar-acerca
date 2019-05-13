@@ -19,6 +19,9 @@ Es cualquier recurso de datos con valor para el desarrollo de las funciones de u
 ### Información
 Es un dato dotado de relevancia, utilidad e interpretación. Para obtener información es necesario aplicar algún tipo de transformación o procesamiento sobre los datos.
 
+### API
+Es una interfaz de programación de aplicaciones, conocida también por la sigla API del inglés *"Application Programming Interface"*. Permite la consulta programática y personalizada de un sistema que contiene datos públicos.
+
 ### Metadatos
 Ciertas características o atributos de los datos son definidos para facilitar su comprensión. Estas características se conocen como "metadatos". Suele decirse, por esa razón, que "los metadatos son datos sobre los datos". Los metadatos pueden describir cómo un dato es representado, cuáles son los rangos de valores aceptables, su relación con otros datos y cómo estos deben ser etiquetados. También pueden proporcionar otra información pertinente, como el administrador responsable, leyes y reglamentos asociados, y la política de gestión de acceso.
 

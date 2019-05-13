@@ -3,17 +3,15 @@
 
 """Convierte archivos markdown a template html de "Acerca" de datosgobar
 
-    python markdown_to_html.py publica-datos.md docs/publica-datos.html
+    python markdown_to_html.py sections/publica-datos.md docs/publica-datos.html docs/andino-html/publica-datos.html "Publicá datos"
 """
 
 from __future__ import unicode_literals
 from __future__ import print_function
 from __future__ import with_statement
-import os
 import sys
 
 import markdown
-from bs4 import BeautifulSoup
 
 from andino_templates import PREVIEW_TEMPLATE, SECTION_TEMPLATE
 
@@ -23,14 +21,14 @@ def main(input_path, output_path_preview, output_path_section,
 
     # convierte el markdown a html
     with open(input_path, "r") as f:
-        md = f.read().decode("utf-8")
+        md = f.read()
         html = markdown.markdown(md)
 
     # genera el html de la sección para previsualizar en este repo
     with open(output_path_preview, "wb") as f:
         preview_html = PREVIEW_TEMPLATE.format(
             document=html,
-            section_name=section_name.decode("utf8")
+            section_name=section_name
         )
         f.write(preview_html.encode("utf-8"))
 
@@ -38,7 +36,7 @@ def main(input_path, output_path_preview, output_path_section,
     with open(output_path_section, "wb") as f:
         section_html = SECTION_TEMPLATE.format(
             document=html,
-            section_name=section_name.decode("utf8")
+            section_name=section_name
         )
         f.write(section_html.encode("utf-8"))
 
