@@ -29,6 +29,9 @@ Acá podés ver todo lo que hacemos para potenciar la apertura y el consumo de d
     * **Taller Github 201** ([Presentación](https://datosgobar.github.io/taller-github-201) | [Github](https://github.com/datosgobar/taller-github-201)). Taller interno de conflictos de edición en Github y cómo manejarlos.
     * **Taller Repositorios en Github** ([Presentación](https://datosgobar.github.io/taller-repos-readmes/) | [Github](https://github.com/datosgobar/taller-repos-readmes)). Taller interno sobre consejos, tips, templates y políticas para estructurar repositorios y escribir buenos readmes.
 
+* Artículos
+    - [**Publicación de Medium**](https://medium.com/datos-argentina). Artículos de difusión del equipo de Datos Argentina.
+
 ## Desarrollos
 
 ### Apertura
