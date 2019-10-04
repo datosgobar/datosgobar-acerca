@@ -3,6 +3,7 @@ build:
 	python markdown_to_html.py sections/marco-legal.md docs/marco-legal.html docs/andino-html/marco-legal.html "Marco legal"
 	python markdown_to_html.py sections/glosario.md docs/glosario.html docs/andino-html/glosario.html "Glosario"
 	python markdown_to_html.py sections/herramientas.md docs/herramientas.html docs/andino-html/herramientas.html "Herramientas"
+	python markdown_to_html.py sections/monitoreo.md docs/monitoreo.html docs/andino-html/monitoreo.html "Monitoreo"
 
 start_python_server:
 	cd docs/ && python -m SimpleHTTPServer 8080
@@ -16,3 +17,5 @@ doctoc:
 	bash fix_github_links.sh sections/publica-datos.md
 	doctoc --github --title " " sections/herramientas.md
 	bash fix_github_links.sh sections/herramientas.md
+	doctoc --github --title " " sections/monitoreo.md
+	bash fix_github_links.sh sections/monitoreo.md
