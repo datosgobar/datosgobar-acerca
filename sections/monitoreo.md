@@ -89,10 +89,49 @@ Otras caídas temporales pueden deberse a que en determinado momento algún cat�
 
 ## Indicadores de los nodos
 
+## API Georef
 
+El [Servicio de Normalización de Datos Geográficos de Argentina](http://apis.datos.gob.ar/georef) se usa como (1) **referencia** para consultar las listas canónicas de provincias, departamentos, localidades y otras entidades, (2) para **normalizar** sus nombres, (3) para **georreferenciar direcciones** en Argentina y para (4) **enriquecer puntos de coordenadas** con información de las unidades territoriales que los contienen.
 
-## Indicadores de los nodos
+<div class="row panels-row">
+    <div class="col-xs-12 col-sm-12 col-md-6 center-block">
+        <div class="row panels-row">
+            <div id="georef-consultas-historicas" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="georef-consultas-diarias-promedio" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 center-block">
+        <div class="row panels-row">
+            <div id="georef-consultas-diarias-ayer" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="georef-usuarios-unicos" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+        </div>
+    </div>
+</div>
+<div class="row panels-row">
+    <div id="georef-graphic" style="margin-bottom: 40px;" class="col-xs-12 col-sm-12 col-md-6 full-width center-block"></div>
+</div>
 
+## API Series de Tiempo
+
+La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar/series) se usa para consultar indicadores de todos los organismos de la Administración Pública Nacional que los publiquen en formato de series de tiempo. Permite filtrar por tiempo, hacer agregaciones temporales, transformar unidades de medida y combinar series de distintas fuentes en una única consulta, entre otras funcionalidades.
+
+<div class="row panels-row">
+    <div class="col-xs-12 col-sm-12 col-md-6 center-block">
+        <div class="row panels-row">
+            <div id="series-consultas-historicas" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="series-consultas-diarias-promedio" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 center-block">
+        <div class="row panels-row">
+            <div id="series-consultas-diarias-ayer" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="series-usuarios-unicos" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+        </div>
+    </div>
+</div>
+<div class="row panels-row">
+    <div id="series-graphic" style="margin-bottom: 40px;" class="col-xs-12 col-sm-12 col-md-6 full-width center-block"></div>
+</div>
 
 <script>
     window.onload = function() {
@@ -168,6 +207,95 @@ Otras caídas temporales pueden deberse a que en determinado momento algún cat�
             serieId: 'ddaa_apn_009',
             title: "Distribuciones"
         })
+
+        // API georef
+        TSComponents.Card.render('georef-consultas-historicas', {
+            serieId: 'apis_georef_005',
+            color: "#0072BB",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas históricas"
+        })
+
+        TSComponents.Card.render('georef-consultas-diarias-promedio', {
+            serieId: 'ddaa_apn_009',
+            color: "#2E7D33",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas diarias (promedio último mes)",
+            collapse: "month"
+        })
+
+        TSComponents.Card.render('georef-consultas-diarias-ayer', {
+            serieId: 'ddaa_apn_009',
+            color: "#C62828",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas diarias (último día)"
+        })
+
+        TSComponents.Card.render('georef-usuarios-unicos', {
+            serieId: 'apis_georef_004',
+            color: "#F9A822",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Usuarios únicos diarios (promedio último mes)",
+            collapse: "month"
+        })
+
+        TSComponents.Graphic.render('georef-graphic', {
+            graphicUrl: 'https://apis.datos.gob.ar/series/api/series/?ids=apis_georef_001,apis_georef_002,apis_georef_003',
+            title: "Consultas diarias realizadas"
+        })
+
+        // API series
+        TSComponents.Card.render('series-consultas-historicas', {
+            serieId: 'apis_series_005',
+            color: "#0072BB",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas históricas"
+        })
+
+        TSComponents.Card.render('series-consultas-diarias-promedio', {
+            serieId: 'ddaa_apn_009',
+            color: "#2E7D33",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas diarias (promedio último mes)",
+            collapse: "month"
+        })
+
+        TSComponents.Card.render('series-consultas-diarias-ayer', {
+            serieId: 'ddaa_apn_009',
+            color: "#C62828",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas diarias (último día)"
+        })
+
+        TSComponents.Card.render('series-usuarios-unicos', {
+            serieId: 'apis_series_004',
+            color: "#F9A822",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Usuarios únicos diarios (promedio último mes)",
+            collapse: "month"
+        })
+
+        TSComponents.Graphic.render('series-graphic', {
+            graphicUrl: 'https://apis.datos.gob.ar/series/api/series/?ids=apis_series_001,apis_series_002,apis_series_003',
+            title: "Consultas diarias realizadas"
+        })
+
 
     }
 </script>
