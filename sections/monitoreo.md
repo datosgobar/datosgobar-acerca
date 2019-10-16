@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" media="all" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.6/dist/css/components.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.7/dist/css/components.css" type="text/css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.6/dist/js/components.js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.7/dist/js/components.js'></script>
 
 <style>
 .row {
@@ -219,7 +219,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
         })
 
         TSComponents.Card.render('georef-consultas-diarias-promedio', {
-            serieId: 'ddaa_apn_009',
+            serieId: 'apis_georef_001',
             color: "#2E7D33",
             source: "",
             units: "",
@@ -229,7 +229,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
         })
 
         TSComponents.Card.render('georef-consultas-diarias-ayer', {
-            serieId: 'ddaa_apn_009',
+            serieId: 'apis_georef_001',
             color: "#C62828",
             source: "",
             units: "",
@@ -263,7 +263,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
         })
 
         TSComponents.Card.render('series-consultas-diarias-promedio', {
-            serieId: 'ddaa_apn_009',
+            serieId: 'ddaa_series_001',
             color: "#2E7D33",
             source: "",
             units: "",
@@ -273,7 +273,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
         })
 
         TSComponents.Card.render('series-consultas-diarias-ayer', {
-            serieId: 'ddaa_apn_009',
+            serieId: 'ddaa_series_001',
             color: "#C62828",
             source: "",
             units: "",
