@@ -224,7 +224,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
             source: "",
             units: "",
             links: "none",
-            title: "Consultas diarias (promedio último mes)",
+            title: "Consultas diarias (promedio mes)",
             collapse: "month"
         })
 
@@ -243,7 +243,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
             source: "",
             units: "",
             links: "none",
-            title: "Usuarios únicos diarios (promedio último mes)",
+            title: "Usuarios únicos diarios (prom. mes)",
             collapse: "month"
         })
 
@@ -263,17 +263,17 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
         })
 
         TSComponents.Card.render('series-consultas-diarias-promedio', {
-            serieId: 'ddaa_series_001',
+            serieId: 'apis_series_001',
             color: "#2E7D33",
             source: "",
             units: "",
             links: "none",
-            title: "Consultas diarias (promedio último mes)",
+            title: "Consultas diarias (promedio mes)",
             collapse: "month"
         })
 
         TSComponents.Card.render('series-consultas-diarias-ayer', {
-            serieId: 'ddaa_series_001',
+            serieId: 'apis_series_001',
             color: "#C62828",
             source: "",
             units: "",
@@ -287,7 +287,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
             source: "",
             units: "",
             links: "none",
-            title: "Usuarios únicos diarios (promedio último mes)",
+            title: "Usuarios únicos diarios (prom. mes)",
             collapse: "month"
         })
 
