@@ -55,7 +55,7 @@ Este estándar estructura la documentación de activos de datos en datasets (con
 </div>
 
 
-## Federación selectiva
+## Datos.gob.ar
 
 En el Portal Nacional de Datos Públicos (datos.gob.ar) se federan todos los datasets de la red que cumplen con un piso de calidad en términos de:
 
@@ -63,7 +63,9 @@ En el Portal Nacional de Datos Públicos (datos.gob.ar) se federan todos los dat
 * **Relevancia**: deben ser de interés público.
 * **Reusabilidad**: deben publicarse con un nivel de granularidad, actualización, formato, etc que garanticen posibilidades de reutilización razonables.
 
-Los metadatos del total de los archivos publicados por la red de nodos se puede [descargar acá](https://infra.datos.gob.ar/catalog/modernizacion/dataset/8/distribution/8.3/download/distribuciones.csv).
+Esto significa que en todo momento existen más datasets publicados en la Red de Nodos de Datos Abiertos de la APN, de los que se muestran en datos.gob.ar. Los que no se muestran en datos.gob.ar no cumplen con los criterios mínimos para ser federados: se encuentran en revisión para mejorar su calidad o pertinencia.
+
+Podés descargar una lista del total de los archivos publicados por la Red de Nodos (federados y no federados en datos.gob.ar) desde [acá](https://infra.datos.gob.ar/catalog/modernizacion/dataset/8/distribution/8.3/download/distribuciones.csv).
 
 <div class="row panels-row">
     <div class="col-xs-12 col-sm-12 col-md-6 center-block">
