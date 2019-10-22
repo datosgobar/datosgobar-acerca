@@ -23,6 +23,9 @@ SECTION_TEMPLATE = """
             </div>
 
             <style>
+            #template-config-container #template-config div.card {{
+                font-style: normal;
+            }}
             #template-config-container #template-config div.card,
             #template-config-container #template-config div.c-head,
             #template-config-container #template-config div.c-data,
@@ -440,6 +443,9 @@ PREVIEW_TEMPLATE = """
             </div>
 
         <style>
+        #template-config-container #template-config div.card {{
+            font-style: normal;
+        }}
         #template-config-container #template-config div.card,
         #template-config-container #template-config div.c-head,
         #template-config-container #template-config div.c-data,
