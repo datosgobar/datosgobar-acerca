@@ -93,18 +93,18 @@ Otras caídas temporales pueden deberse a que en determinado momento algún cat�
 
 ## Los nodos
 
-<div class="container" id="catalogs_indicators_panels">
-    <!-- COMIENZO DEL SELECTOR DE CATALOGOS -->
-    <div class="row">
-        <div class="col">
-            <select name="catalog-selector" id="catalog-selector-id" class="form-control">
-                <option value="agroindustria" selected>Agroindustria</option>
-                <option value="energia">Energía</option>
-                <option value="modernizacion">Modernización</option>
-            </select>
-        </div>
+<!-- COMIENZO DEL SELECTOR DE CATALOGOS -->
+<div class="row">
+    <div class="col">
+        <select name="catalog-selector" id="catalog-selector-id" class="form-control">
+            <option value="agroindustria" selected>Agroindustria</option>
+            <option value="energia">Energía</option>
+            <option value="modernizacion">Modernización</option>
+        </select>
     </div>
-    <!-- FIN DEL SELECTOR DE CATALOGOS -->
+</div>
+<!-- FIN DEL SELECTOR DE CATALOGOS -->
+<div class="row" id="catalogs_indicators_panels">
     <!-- COMIENZO DE LOS PANELES DE CATALOGOS-INDICADORES -->
     <div class="row panels-row catalog-indicator-panel" id='ddaa_agroindustria_panel'>
         <div style="margin-top: auto; margin-bottom: auto;" class="center-block card-wrapper col-xs-12 col-sm-4 col-md-4" id="ddaa_agroindustria_002_card"></div>

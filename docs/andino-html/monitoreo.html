@@ -176,19 +176,22 @@
 
 <p>En todo momento buscamos facilitar la búsqueda y comprensión de datos similares. Cuando observás una caída en la cantidad de datasets de la red significa que hemos encontrado conjuntos de datos muy parecidos entre sí y pedimos a los organismos que los fusionen generando menos datasets.</p>
 <p>Otras caídas temporales pueden deberse a que en determinado momento algún catálogo no estuvo accesible en línea y sus datasets no podían verse. Sin embargo, en datos.gob.ar la disponibilidad de los metadatos se mantiene, aunque los datos puedan estar inaccesibles momentáneamente mientras el organismo soluciona los inconvenientes.</p>
-<h2>Indicadores de los nodos</h2>
-<div class="container" id="catalogs_indicators_panels">
-    <!-- COMIENZO DEL SELECTOR DE CATALOGOS -->
-    <div class="row">
-        <div class="col">
-            <select name="catalog-selector" id="catalog-selector-id" class="form-control">
-                <option value="agroindustria" selected>Agroindustria</option>
-                <option value="energia">Energía</option>
-                <option value="modernizacion">Modernización</option>
-            </select>
-        </div>
+<h2>Los nodos</h2>
+<!-- COMIENZO DEL SELECTOR DE CATALOGOS -->
+
+<div class="row">
+    <div class="col">
+        <select name="catalog-selector" id="catalog-selector-id" class="form-control">
+            <option value="agroindustria" selected>Agroindustria</option>
+            <option value="energia">Energía</option>
+            <option value="modernizacion">Modernización</option>
+        </select>
     </div>
-    <!-- FIN DEL SELECTOR DE CATALOGOS -->
+</div>
+
+<!-- FIN DEL SELECTOR DE CATALOGOS -->
+
+<div class="row" id="catalogs_indicators_panels">
     <!-- COMIENZO DE LOS PANELES DE CATALOGOS-INDICADORES -->
     <div class="row panels-row catalog-indicator-panel" id='ddaa_agroindustria_panel'>
         <div style="margin-top: auto; margin-bottom: auto;" class="center-block card-wrapper col-xs-12 col-sm-4 col-md-4" id="ddaa_agroindustria_002_card"></div>
