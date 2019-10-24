@@ -404,11 +404,14 @@
 
         <p><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" media="all" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.7/dist/css/components.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.8/dist/css/components.css" type="text/css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.7/dist/js/components.js'></script></p>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.8/dist/js/components.js'></script></p>
 <style>
+.empty {
+    font-style: normal;
+}
 .row {
     display: flex;
     justify-content: space-around;
@@ -420,7 +423,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 .full-width {
     width: 100%;
 }
@@ -429,7 +431,7 @@
     width: 100%;
 }
 
-.cardWrapper {
+.card-wrapper {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -448,9 +450,9 @@
 <p>La política de apertura de datos de la Administración Pública Nacional se apoya en una red de organismos que publican sus catálogos de datos abiertos siguiendo un estándar internacional de metadatos que facilita su búsqueda y comprensión.</p>
 <p>Este estándar estructura la documentación de activos de datos en datasets (conjuntos de datos estrechamente relacionados entre sí) y distribuciones (archivos descargables).</p>
 <div class="row panels-row">
-    <div id="catalogos-red-card" class="col-xs-12 col-sm-4 col-md-4 cardWrapper"></div>
-    <div id="datasets-red-card2" class="col-xs-12 col-sm-4 col-md-4 cardWrapper"></div>
-    <div id="distribuciones-red-card" class="col-xs-12 col-sm-4 col-md-4 cardWrapper"></div>
+    <div id="catalogos-red-card" class="col-xs-12 col-sm-4 col-md-4 card-wrapper"></div>
+    <div id="datasets-red-card2" class="col-xs-12 col-sm-4 col-md-4 card-wrapper"></div>
+    <div id="distribuciones-red-card" class="col-xs-12 col-sm-4 col-md-4 card-wrapper"></div>
 </div>
 
 <h2>Datos.gob.ar</h2>
@@ -465,14 +467,14 @@
 <div class="row panels-row">
     <div class="col-xs-12 col-sm-12 col-md-6 center-block">
         <div class="row panels-row">
-            <div id="datasets-red-card" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
-            <div id="datasets-validos-red-card" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="datasets-red-card" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
+            <div id="datasets-validos-red-card" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 center-block">
         <div class="row panels-row">
-            <div id="datasets-federados-card" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
-            <div id="datasets-federados-pct-card" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="datasets-federados-card" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
+            <div id="datasets-federados-pct-card" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
         </div>
     </div>
 </div>
@@ -484,19 +486,40 @@
 <p>En todo momento buscamos facilitar la búsqueda y comprensión de datos similares. Cuando observás una caída en la cantidad de datasets de la red significa que hemos encontrado conjuntos de datos muy parecidos entre sí y pedimos a los organismos que los fusionen generando menos datasets.</p>
 <p>Otras caídas temporales pueden deberse a que en determinado momento algún catálogo no estuvo accesible en línea y sus datasets no podían verse. Sin embargo, en datos.gob.ar la disponibilidad de los metadatos se mantiene, aunque los datos puedan estar inaccesibles momentáneamente mientras el organismo soluciona los inconvenientes.</p>
 <h2>Indicadores de los nodos</h2>
+<div class="container" id="catalogs_indicators_panels">
+    <!-- COMIENZO DEL SELECTOR DE CATALOGOS -->
+    <div class="row">
+        <div class="col">
+            <select name="catalog-selector" id="catalog-selector-id" class="form-control">
+                <option value="agroindustria" selected>Agroindustria</option>
+                <option value="energia">Energía</option>
+                <option value="modernizacion">Modernización</option>
+            </select>
+        </div>
+    </div>
+    <!-- FIN DEL SELECTOR DE CATALOGOS -->
+    <!-- COMIENZO DE LOS PANELES DE CATALOGOS-INDICADORES -->
+    <div class="row panels-row catalog-indicator-panel" id='ddaa_agroindustria_panel'>
+        <div style="margin-top: auto; margin-bottom: auto;" class="center-block card-wrapper col-xs-12 col-sm-4 col-md-4" id="ddaa_agroindustria_002_card"></div>
+        <div style=" height: 420px;" class="col-xs-12 col-sm-8 col-md-8" id="ddaa_agroindustria_002_graphic"></div>
+    </div>
+    <!-- los nuevos paneles de indicadores de nodos se agregan dinámicamente -->
+    <!-- FIN DE LOS PANELES DE CATALOGOS-INDICADORES -->
+</div>
+
 <h2>API Georef</h2>
 <p>El <a href="http://apis.datos.gob.ar/georef">Servicio de Normalización de Datos Geográficos de Argentina</a> se usa como (1) <strong>referencia</strong> para consultar las listas canónicas de provincias, departamentos, localidades y otras entidades, (2) para <strong>normalizar</strong> sus nombres, (3) para <strong>georreferenciar direcciones</strong> en Argentina y para (4) <strong>enriquecer puntos de coordenadas</strong> con información de las unidades territoriales que los contienen.</p>
 <div class="row panels-row">
     <div class="col-xs-12 col-sm-12 col-md-6 center-block">
         <div class="row panels-row">
-            <div id="georef-consultas-historicas" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
-            <div id="georef-consultas-diarias-promedio" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="georef-consultas-historicas" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
+            <div id="georef-consultas-diarias-promedio" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 center-block">
         <div class="row panels-row">
-            <div id="georef-consultas-diarias-ayer" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
-            <div id="georef-usuarios-unicos" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="georef-consultas-diarias-ayer" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
+            <div id="georef-usuarios-unicos" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
         </div>
     </div>
 </div>
@@ -510,14 +533,14 @@
 <div class="row panels-row">
     <div class="col-xs-12 col-sm-12 col-md-6 center-block">
         <div class="row panels-row">
-            <div id="series-consultas-historicas" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
-            <div id="series-consultas-diarias-promedio" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="series-consultas-historicas" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
+            <div id="series-consultas-diarias-promedio" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 center-block">
         <div class="row panels-row">
-            <div id="series-consultas-diarias-ayer" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
-            <div id="series-usuarios-unicos" class="col-xs-12 col-sm-6 col-md-6 cardWrapper"></div>
+            <div id="series-consultas-diarias-ayer" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
+            <div id="series-usuarios-unicos" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
         </div>
     </div>
 </div>
@@ -574,7 +597,8 @@
             links: "none",
             units: "",
             source: "",
-            hasFrame: false
+            hasFrame: false,
+            decimals: 1
         })
 
         TSComponents.Graphic.render('datasets-federados-graphic', {
@@ -689,6 +713,82 @@
             title: "Consultas diarias realizadas"
         })
 
+        // INDICADORES DE CATÁLOGOS
+        // crea funciones para los indicadores de catálogos
+        function catalogIndicatorGraphic(catalogId) {
+            var serieId = "ddaa_" + catalogId + "_002"
+            var serieIdVariation = serieId + ":percent_change_a_year_ago"
+            var graphicTargetDiv = serieId + '_graphic'
+
+            var chartTypes = {}
+            chartTypes[serieId] = "line"
+            chartTypes[serieIdVariation] = "column"
+
+            var seriesAxis = {}
+            seriesAxis[serieId] = "left"
+            seriesAxis[serieIdVariation] = "right"
+
+            var decimalTooltips = {}
+            decimalTooltips[serieId] = 0
+            decimalTooltips[serieIdVariation] = 1
+
+            TSComponents.Graphic.render(graphicTargetDiv, {
+                graphicUrl: "https://apis.datos.gob.ar/series/api/series?ids=" + serieId + "," + serieIdVariation,
+                chartTypes: chartTypes,
+                seriesAxis: seriesAxis,
+                decimalTooltips: decimalTooltips,
+                datePickerEnabled: false,
+                zoom: false,
+                navigator: true,
+            });
+        }
+
+        function catalogIndicatorCard(catalogId) {
+            var serieId = "ddaa_" + catalogId + "_002"
+            var cardTargetDiv = serieId + '_card'
+
+            TSComponents.Card.render(cardTargetDiv, {
+                serieId: serieId,
+                decimals: 0
+            });
+        }
+
+        function catalogIndicatorPanelHtml(catalogId) {
+            var catalogIndicatorPanelId = "#ddaa_" + catalogId + "_panel"
+
+            if ($(catalogIndicatorPanelId).length) {
+                // it exists
+            } else {
+                var panelTemplate = $("#ddaa_agroindustria_panel").prop('outerHTML')
+                var newPanelHtml = panelTemplate.replace(/agroindustria/g, catalogId)
+                $("#catalogs_indicators_panels").append($(newPanelHtml))
+            }
+        }
+
+        function catalogIndicatorPanel(catalogId) {
+            catalogIndicatorPanelHtml(catalogId)
+            catalogIndicatorCard(catalogId)
+            catalogIndicatorGraphic(catalogId)
+        }
+        // crea el selector de catálogos
+        $("#catalog-selector-id").on("change", function() {
+            var selector = $(this);
+            var catalogId = selector.val()
+
+            // hide all
+            $(".catalog-indicator-panel").each(function() {
+                $(this).hide();
+            });
+
+            // crea paneles de la provincia si todavía no existen
+            catalogIndicatorPanel(catalogId)
+
+            // show selected
+            $("#ddaa_" + catalogId + "_panel").show();
+        });
+
+        // crea el primer panel de indicadores de género por provincia
+        catalogIndicatorPanel("agroindustria")
 
     }
 </script>
