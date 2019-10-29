@@ -74,7 +74,7 @@ Todos los Ministerios y Secretarías de Gobierno tienen uno o más catálogos de
     <div class="col">
         <select name="catalog-selector" id="catalog-selector-id" class="form-control">
             <option value="aaip">Acceso a la Información Pública</option>
-            <option value="acumar">Energía</option>
+            <option value="acumar">Acumar</option>
             <option value="agroindustria">Agroindustria</option>
             <option value="ambiente">Ambiente</option>
             <option value="arsat">Arsat</option>
