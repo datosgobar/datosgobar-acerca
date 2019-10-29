@@ -71,11 +71,11 @@ Todos los Ministerios y Secretarías de Gobierno tienen uno o más catálogos de
 
 <!-- COMIENZO DEL SELECTOR DE CATALOGOS -->
 <div class="row">
-    <div class="col">
+    <div class="col-xs-12 col-sm-4 col-md-4 center-block">
         <select name="catalog-selector" id="catalog-selector-id" class="form-control">
             <option value="aaip">Acceso a la Información Pública</option>
             <option value="acumar">Acumar</option>
-            <option value="agroindustria">Agroindustria</option>
+            <option value="agroindustria">Agricultura, Ganadería y Pesca</option>
             <option value="ambiente">Ambiente</option>
             <option value="arsat">Arsat</option>
             <option value="cultura">Cultura</option>
@@ -274,7 +274,9 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
                 "ddaa_apn_002": "area",
                 "ddaa_apn_006": "area",
                 "ddaa_datosgobar_002": "area"
-            }
+            },
+            decimalRightAxis: 0,
+            decimalLeftAxis: 0
         })
 
         TSComponents.Card.render('catalogos-red-card', {
@@ -336,7 +338,9 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
 
         TSComponents.Graphic.render('georef-graphic', {
             graphicUrl: 'https://apis.datos.gob.ar/series/api/series/?ids=apis_georef_001,apis_georef_002,apis_georef_003',
-            title: "Consultas diarias realizadas"
+            title: "Consultas diarias realizadas",
+            decimalRightAxis: 0,
+            decimalLeftAxis: 0
         })
 
         // API series
@@ -380,7 +384,9 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
 
         TSComponents.Graphic.render('series-graphic', {
             graphicUrl: 'https://apis.datos.gob.ar/series/api/series/?ids=apis_series_001,apis_series_002,apis_series_003',
-            title: "Consultas diarias realizadas"
+            title: "Consultas diarias realizadas",
+            decimalRightAxis: 0,
+            decimalLeftAxis: 0
         })
 
         // INDICADORES DE CATÁLOGOS
