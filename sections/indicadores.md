@@ -1,48 +1,20 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" media="all" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.8/dist/css/components.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.9/dist/css/components.css" type="text/css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.8/dist/js/components.js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.9/dist/js/components.js'></script>
 
 <style>
 .empty {
     font-style: normal;
 }
-.row {
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-}
-
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 .full-width {
     width: 100%;
 }
-
-.exportable-graph {
-    width: 100%;
-}
-
-.card-wrapper {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-}
-.card.full {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-    background: #ffffff;
-    border-radius: 4px;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-}
 </style>
 
-# Monitoreo
+# Indicadores
 
 ## La Red de Nodos de Datos Abiertos
 
@@ -84,7 +56,7 @@ Podés descargar una lista del total de los archivos publicados por la Red de No
     </div>
 </div>
 <div class="row panels-row">
-    <div id="datasets-federados-graphic" style="margin-bottom: 40px;" class="col-xs-12 col-sm-12 col-md-6 full-width center-block"></div>
+    <div id="datasets-federados-graphic" style="margin-bottom: 40px; width: 100%;" class="col-xs-12 col-sm-12 col-md-6 center-block"></div>
 </div>
 
 En todo momento buscamos facilitar la búsqueda y comprensión de datos similares. Cuando observás una caída en la cantidad de datasets de la red significa que hemos encontrado conjuntos de datos muy parecidos entre sí y pedimos a los organismos que los fusionen generando menos datasets.
@@ -93,22 +65,81 @@ Otras caídas temporales pueden deberse a que en determinado momento algún cat�
 
 ## Los nodos
 
+Crear catálogos es una forma de organizar las distintas "bibliotecas" de datos publicados que existen en la administración pública. Cuando se conforma un equipo de datos que crea un catálogo, lo damos de alta como un **nuevo nodo de la red** y federamos sus datasets en el catálogo central (datos.gob.ar).
+
+Todos los Ministerios y Secretarías de Gobierno tienen uno o más catálogos de datos abiertos. Algunos organismos no centralizados de la Administración Pública Nacional también tienen uno.
+
 <!-- COMIENZO DEL SELECTOR DE CATALOGOS -->
 <div class="row">
     <div class="col">
         <select name="catalog-selector" id="catalog-selector-id" class="form-control">
-            <option value="agroindustria" selected>Agroindustria</option>
+            <option value="aaip">Acceso a la Información Pública</option>
+            <option value="acumar">Energía</option>
+            <option value="agroindustria">Agroindustria</option>
+            <option value="ambiente">Ambiente</option>
+            <option value="arsat">Arsat</option>
+            <option value="cultura">Cultura</option>
+            <option value="defensa">Defensa</option>
+            <option value="desarrollo-social">Desarrollo Social</option>
+            <option value="educacion">Educación</option>
+            <option value="enacom">Enacom</option>
+            <option value="enargas">Enargas</option>
             <option value="energia">Energía</option>
-            <option value="modernizacion">Modernización</option>
+            <option value="exterior">Exterior</option>
+            <option value="ign">IGN</option>
+            <option value="interior">Interior</option>
+            <option value="jgm">Jefatura de Gabinete de Ministros</option>
+            <option value="justicia">Justicia</option>
+            <option value="mincyt">Ciencia y Tecnología</option>
+            <option value="modernizacion" selected>Modernización</option>
+            <option value="pami">PAMI</option>
+            <option value="produccion">Producción</option>
+            <option value="salud">Salud</option>
+            <option value="seguridad">Seguridad</option>
+            <option value="siep">Sec. de Transformación Productiva</option>
+            <option value="smn">Servicio Meteorológico Nacional</option>
+            <option value="spt">Sec. de Planificación del Transporte</option>
+            <option value="spu">Sec. de Políticas Universitarias</option>
+            <option value="sspm">Subsec. de Programación Macroeconómica</option>
+            <option value="sspmi">Subsec. de Programación Microeconómica</option>
+            <option value="sspre">Subsec. de Presupuesto</option>
+            <option value="transporte">Transporte</option>
+            <option value="turismo">Turismo</option>
         </select>
     </div>
 </div>
 <!-- FIN DEL SELECTOR DE CATALOGOS -->
-<div class="row" id="catalogs_indicators_panels">
+<div id="catalogs_indicators_panels">
     <!-- COMIENZO DE LOS PANELES DE CATALOGOS-INDICADORES -->
-    <div class="row panels-row catalog-indicator-panel" id='ddaa_agroindustria_panel'>
-        <div style="margin-top: auto; margin-bottom: auto;" class="center-block card-wrapper col-xs-12 col-sm-4 col-md-4" id="ddaa_agroindustria_002_card"></div>
-        <div style=" height: 420px;" class="col-xs-12 col-sm-8 col-md-8" id="ddaa_agroindustria_002_graphic"></div>
+    <div class="row ts-components-row panels-row catalog-indicator-panel" id='ddaa_modernizacion_panel'>
+        <div class="col">
+        <div class="container">
+            <div class="row panels-row">
+                <div class="col-xs-12 col-sm-12 col-md-6 center-block">
+                    <div class="row panels-row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 card-wrapper" id="ddaa_modernizacion_002_card"></div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 card-wrapper" id="ddaa_modernizacion_009_card"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 center-block">
+                    <div class="row panels-row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 card-wrapper" id="ddaa_modernizacion_008_card"></div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 card-wrapper" id="ddaa_modernizacion_005_card"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-panels">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div style="width: 100%;" id="ddaa_modernizacion_002_009_graphic"></div>
+                </div>
+                <!--
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div style="width: 100%; height: 420px;" id="ddaa_modernizacion_008_005_graphic"></div>
+                </div>
+                -->
+            </div>
+        </div>
+        </div>
     </div>
     <!-- los nuevos paneles de indicadores de nodos se agregan dinámicamente -->
     <!-- FIN DE LOS PANELES DE CATALOGOS-INDICADORES -->
@@ -133,14 +164,14 @@ El [Servicio de Normalización de Datos Geográficos de Argentina](http://apis.d
     </div>
 </div>
 <div class="row panels-row">
-    <div id="georef-graphic" style="margin-bottom: 40px;" class="col-xs-12 col-sm-12 col-md-6 full-width center-block"></div>
+    <div style="width: 100%; margin-bottom: 40px;" id="georef-graphic" class="col-xs-12 col-sm-12 col-md-6 center-block"></div>
 </div>
 
 ## API Series de Tiempo
 
 La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar/series) se usa para consultar indicadores de todos los organismos de la Administración Pública Nacional que los publiquen en formato de series de tiempo. Permite filtrar por tiempo, hacer agregaciones temporales, transformar unidades de medida y combinar series de distintas fuentes en una única consulta, entre otras funcionalidades.
 
-<div class="row panels-row">
+<div style="width: 100%" class="row panels-row">
     <div class="col-xs-12 col-sm-12 col-md-6 center-block">
         <div class="row panels-row">
             <div id="series-consultas-historicas" class="col-xs-12 col-sm-6 col-md-6 card-wrapper"></div>
@@ -155,15 +186,42 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
     </div>
 </div>
 <div class="row panels-row">
-    <div id="series-graphic" style="margin-bottom: 40px;" class="col-xs-12 col-sm-12 col-md-6 full-width center-block"></div>
+    <div id="series-graphic" style="margin-bottom: 40px; width: 100%;" class="col-xs-12 col-sm-12 col-md-6 center-block"></div>
 </div>
 
 <script>
     window.onload = function() {
         // COLORES SUGERIDOS "#0072BB","#2E7D33","#C62828","#F9A822","#6A1B99", "#EC407A","#C2185B","#6A1B99","#039BE5","#6EA100"
 
-        // componentes de series de tiempo para cada sección
+        var INDICS_PARAMS = {
+            "001": {
+                "color": {"card": 3},
+                "title": "Catálogos",
+                "decimals": 0
+            },
+            "002": {
+                "color": {"card": 0},
+                "title": "Datasets",
+                "decimals": 0
+            },
+            "009": {
+                "color": {"card": 4},
+                "title": "Distribuciones",
+                "decimals": 0
+            },
+            "008": {
+                "color": {"card": 1},
+                "title": "Datasets metadatos válidos (%)",
+                "decimals": 1
+            },
+            "005": {
+                "color": {"card": 5},
+                "title": "Datasets federados en datos.gob.ar (%)",
+                "decimals": 1
+            },
+        }
 
+        // componentes de series de tiempo para cada sección
         // SECCION: Indice de Precios al Consumidor Nacional
         TSComponents.Card.render('datasets-red-card', {
             serieId: "ddaa_apn_002",
@@ -221,17 +279,20 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
 
         TSComponents.Card.render('catalogos-red-card', {
             serieId: 'ddaa_apn_001',
-            title: "Catálogos"
+            title: "Catálogos",
+            color: INDICS_PARAMS["001"]["color"]["card"]
         })
 
         TSComponents.Card.render('datasets-red-card2', {
             serieId: 'ddaa_apn_002',
-            title: "Datasets"
+            title: "Datasets",
+            color: INDICS_PARAMS["002"]["color"]["card"]
         })
 
         TSComponents.Card.render('distribuciones-red-card', {
             serieId: 'ddaa_apn_009',
-            title: "Distribuciones"
+            title: "Distribuciones",
+            color: INDICS_PARAMS["009"]["color"]["card"]
         })
 
         // API georef
@@ -324,41 +385,55 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
 
         // INDICADORES DE CATÁLOGOS
         // crea funciones para los indicadores de catálogos
-        function catalogIndicatorGraphic(catalogId) {
-            var serieId = "ddaa_" + catalogId + "_002"
-            var serieIdVariation = serieId + ":percent_change_a_year_ago"
-            var graphicTargetDiv = serieId + '_graphic'
+        function catalogIndicatorGraphic(catalogId, indicatorNumber1, indicatorNumber2, title) {
+            var serieRootId = "ddaa_" + catalogId
+            var serieId1 = serieRootId + "_" + indicatorNumber1
+            var serieId2 = serieRootId + "_" + indicatorNumber2
+            var graphicTargetDiv = serieRootId + "_" + indicatorNumber1 + "_" + indicatorNumber2 + '_graphic'
 
             var chartTypes = {}
-            chartTypes[serieId] = "line"
-            chartTypes[serieIdVariation] = "column"
+            chartTypes[serieId1] = "line"
+            chartTypes[serieId2] = "line"
 
             var seriesAxis = {}
-            seriesAxis[serieId] = "left"
-            seriesAxis[serieIdVariation] = "right"
+            seriesAxis[serieId1] = "left"
+            seriesAxis[serieId2] = "right"
 
             var decimalTooltips = {}
-            decimalTooltips[serieId] = 0
-            decimalTooltips[serieIdVariation] = 1
+            decimalTooltips[serieId1] = INDICS_PARAMS[indicatorNumber1]["decimals"]
+            decimalTooltips[serieId2] = INDICS_PARAMS[indicatorNumber2]["decimals"]
 
             TSComponents.Graphic.render(graphicTargetDiv, {
-                graphicUrl: "https://apis.datos.gob.ar/series/api/series?ids=" + serieId + "," + serieIdVariation,
+                graphicUrl: "https://apis.datos.gob.ar/series/api/series?ids=" + serieId1 + "," + serieId2,
+                colors: [
+                    INDICS_PARAMS[indicatorNumber1]["color"]["card"],
+                    INDICS_PARAMS[indicatorNumber2]["color"]["card"],
+                ],
                 chartTypes: chartTypes,
+                title: title,
                 seriesAxis: seriesAxis,
                 decimalTooltips: decimalTooltips,
-                datePickerEnabled: false,
-                zoom: false,
+                decimalRightAxis: 0,
+                decimalLeftAxis: 0,
+                datePickerEnabled: true,
+                zoom: true,
                 navigator: true,
             });
         }
 
-        function catalogIndicatorCard(catalogId) {
-            var serieId = "ddaa_" + catalogId + "_002"
+        function catalogIndicatorCard(catalogId, indicatorNumber) {
+            var serieId = "ddaa_" + catalogId + "_" + indicatorNumber
             var cardTargetDiv = serieId + '_card'
 
             TSComponents.Card.render(cardTargetDiv, {
                 serieId: serieId,
-                decimals: 0
+                color: INDICS_PARAMS[indicatorNumber]["color"]["card"],
+                decimals: INDICS_PARAMS[indicatorNumber]["decimals"],
+                title: INDICS_PARAMS[indicatorNumber]["title"],
+                hasChart: "none",
+                links: "none",
+                source: "",
+                units: "",
             });
         }
 
@@ -368,16 +443,20 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
             if ($(catalogIndicatorPanelId).length) {
                 // it exists
             } else {
-                var panelTemplate = $("#ddaa_agroindustria_panel").prop('outerHTML')
-                var newPanelHtml = panelTemplate.replace(/agroindustria/g, catalogId)
+                var panelTemplate = $("#ddaa_modernizacion_panel").prop('outerHTML')
+                var newPanelHtml = panelTemplate.replace(/modernizacion/g, catalogId)
                 $("#catalogs_indicators_panels").append($(newPanelHtml))
             }
         }
 
         function catalogIndicatorPanel(catalogId) {
             catalogIndicatorPanelHtml(catalogId)
-            catalogIndicatorCard(catalogId)
-            catalogIndicatorGraphic(catalogId)
+            catalogIndicatorCard(catalogId, "002")
+            catalogIndicatorCard(catalogId, "009")
+            catalogIndicatorCard(catalogId, "008")
+            catalogIndicatorCard(catalogId, "005")
+            catalogIndicatorGraphic(catalogId, "002", "009", "Cantidad de datasets y distribuciones")
+            // catalogIndicatorGraphic(catalogId, "008", "005")
         }
         // crea el selector de catálogos
         $("#catalog-selector-id").on("change", function() {
@@ -397,7 +476,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
         });
 
         // crea el primer panel de indicadores de género por provincia
-        catalogIndicatorPanel("agroindustria")
+        catalogIndicatorPanel("modernizacion")
 
     }
 </script>

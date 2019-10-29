@@ -3,7 +3,7 @@ build:
 	python markdown_to_html.py sections/marco-legal.md docs/marco-legal.html docs/andino-html/marco-legal.html "Marco legal"
 	python markdown_to_html.py sections/glosario.md docs/glosario.html docs/andino-html/glosario.html "Glosario"
 	python markdown_to_html.py sections/herramientas.md docs/herramientas.html docs/andino-html/herramientas.html "Herramientas"
-	python markdown_to_html.py sections/monitoreo.md docs/monitoreo.html docs/andino-html/monitoreo.html "Monitoreo"
+	python markdown_to_html.py sections/indicadores.md docs/indicadores.html docs/andino-html/indicadores.html "Indicadores"
 
 start_python_server:
 	cd docs/ && python -m SimpleHTTPServer 8080
@@ -12,12 +12,12 @@ clean:
 	rm docs/glosario.html
 	rm docs/herramientas.html
 	rm docs/marco-legal.html
-	rm docs/monitoreo.html
+	rm docs/indicadores.html
 	rm docs/publica-datos.html
 	rm docs/andino-html/glosario.html
 	rm docs/andino-html/herramientas.html
 	rm docs/andino-html/marco-legal.html
-	rm docs/andino-html/monitoreo.html
+	rm docs/andino-html/indicadores.html
 	rm docs/andino-html/publica-datos.html
 
 doctoc:
@@ -29,5 +29,5 @@ doctoc:
 	bash fix_github_links.sh sections/publica-datos.md
 	doctoc --github --title " " sections/herramientas.md
 	bash fix_github_links.sh sections/herramientas.md
-	doctoc --github --title " " sections/monitoreo.md
-	bash fix_github_links.sh sections/monitoreo.md
+	doctoc --github --title " " sections/indicadores.md
+	bash fix_github_links.sh sections/indicadores.md
