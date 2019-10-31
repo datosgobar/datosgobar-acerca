@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" media="all" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.9/dist/css/components.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.10/dist/css/components.css" type="text/css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.9/dist/js/components.js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.6.10/dist/js/components.js'></script>
 
 <style>
 .empty {
@@ -221,8 +221,26 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
             },
         }
 
-        // componentes de series de tiempo para cada sección
-        // SECCION: Indice de Precios al Consumidor Nacional
+        // SECCION: "La Red de Nodos de Datos Abiertos"
+        TSComponents.Card.render('catalogos-red-card', {
+            serieId: 'ddaa_apn_001',
+            title: "Catálogos",
+            color: INDICS_PARAMS["001"]["color"]["card"]
+        })
+
+        TSComponents.Card.render('datasets-red-card2', {
+            serieId: 'ddaa_apn_002',
+            title: "Datasets",
+            color: INDICS_PARAMS["002"]["color"]["card"]
+        })
+
+        TSComponents.Card.render('distribuciones-red-card', {
+            serieId: 'ddaa_apn_009',
+            title: "Distribuciones",
+            color: INDICS_PARAMS["009"]["color"]["card"]
+        })
+        
+        // SECCION: "Datos.gob.ar"
         TSComponents.Card.render('datasets-red-card', {
             serieId: "ddaa_apn_002",
             color: '#0072BB',
@@ -279,117 +297,7 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
             decimalLeftAxis: 0
         })
 
-        TSComponents.Card.render('catalogos-red-card', {
-            serieId: 'ddaa_apn_001',
-            title: "Catálogos",
-            color: INDICS_PARAMS["001"]["color"]["card"]
-        })
-
-        TSComponents.Card.render('datasets-red-card2', {
-            serieId: 'ddaa_apn_002',
-            title: "Datasets",
-            color: INDICS_PARAMS["002"]["color"]["card"]
-        })
-
-        TSComponents.Card.render('distribuciones-red-card', {
-            serieId: 'ddaa_apn_009',
-            title: "Distribuciones",
-            color: INDICS_PARAMS["009"]["color"]["card"]
-        })
-
-        // API georef
-        TSComponents.Card.render('georef-consultas-historicas', {
-            serieId: 'apis_georef_005',
-            color: "#0072BB",
-            source: "",
-            units: "",
-            links: "none",
-            title: "Consultas históricas"
-        })
-
-        TSComponents.Card.render('georef-consultas-diarias-promedio', {
-            serieId: 'apis_georef_001',
-            color: "#2E7D33",
-            source: "",
-            units: "",
-            links: "none",
-            title: "Consultas diarias (promedio mes)",
-            collapse: "month"
-        })
-
-        TSComponents.Card.render('georef-consultas-diarias-ayer', {
-            serieId: 'apis_georef_001',
-            color: "#C62828",
-            source: "",
-            units: "",
-            links: "none",
-            title: "Consultas diarias (último día)"
-        })
-
-        TSComponents.Card.render('georef-usuarios-unicos', {
-            serieId: 'apis_georef_004',
-            color: "#F9A822",
-            source: "",
-            units: "",
-            links: "none",
-            title: "Usuarios únicos diarios (prom. mes)",
-            collapse: "month"
-        })
-
-        TSComponents.Graphic.render('georef-graphic', {
-            graphicUrl: 'https://apis.datos.gob.ar/series/api/series/?ids=apis_georef_001,apis_georef_002,apis_georef_003',
-            title: "Consultas diarias realizadas",
-            decimalRightAxis: 0,
-            decimalLeftAxis: 0
-        })
-
-        // API series
-        TSComponents.Card.render('series-consultas-historicas', {
-            serieId: 'apis_series_005',
-            color: "#0072BB",
-            source: "",
-            units: "",
-            links: "none",
-            title: "Consultas históricas"
-        })
-
-        TSComponents.Card.render('series-consultas-diarias-promedio', {
-            serieId: 'apis_series_001',
-            color: "#2E7D33",
-            source: "",
-            units: "",
-            links: "none",
-            title: "Consultas diarias (promedio mes)",
-            collapse: "month"
-        })
-
-        TSComponents.Card.render('series-consultas-diarias-ayer', {
-            serieId: 'apis_series_001',
-            color: "#C62828",
-            source: "",
-            units: "",
-            links: "none",
-            title: "Consultas diarias (último día)"
-        })
-
-        TSComponents.Card.render('series-usuarios-unicos', {
-            serieId: 'apis_series_004',
-            color: "#F9A822",
-            source: "",
-            units: "",
-            links: "none",
-            title: "Usuarios únicos diarios (prom. mes)",
-            collapse: "month"
-        })
-
-        TSComponents.Graphic.render('series-graphic', {
-            graphicUrl: 'https://apis.datos.gob.ar/series/api/series/?ids=apis_series_001,apis_series_002,apis_series_003',
-            title: "Consultas diarias realizadas",
-            decimalRightAxis: 0,
-            decimalLeftAxis: 0
-        })
-
-        // INDICADORES DE CATÁLOGOS
+        // SECCION: INDICADORES DE CATÁLOGOS
         // crea funciones para los indicadores de catálogos
         function catalogIndicatorGraphic(catalogId, indicatorNumber1, indicatorNumber2, title) {
             var serieRootId = "ddaa_" + catalogId
@@ -485,4 +393,96 @@ La [API de Series de Tiempo de la República Argentina](http://apis.datos.gob.ar
         catalogIndicatorPanel("modernizacion")
 
     }
+
+        // API georef
+        TSComponents.Card.render('georef-consultas-historicas', {
+            serieId: 'apis_georef_005',
+            color: "#0072BB",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas históricas"
+        })
+
+        TSComponents.Card.render('georef-consultas-diarias-promedio', {
+            serieId: 'apis_georef_001',
+            color: "#2E7D33",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas diarias (promedio mes)",
+            collapse: "month"
+        })
+
+        TSComponents.Card.render('georef-consultas-diarias-ayer', {
+            serieId: 'apis_georef_001',
+            color: "#C62828",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas diarias (último día)"
+        })
+
+        TSComponents.Card.render('georef-usuarios-unicos', {
+            serieId: 'apis_georef_004',
+            color: "#F9A822",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Usuarios únicos diarios (prom. mes)",
+            collapse: "month"
+        })
+
+        TSComponents.Graphic.render('georef-graphic', {
+            graphicUrl: 'https://apis.datos.gob.ar/series/api/series/?ids=apis_georef_001,apis_georef_002,apis_georef_003',
+            title: "Consultas diarias realizadas",
+            decimalRightAxis: 0,
+            decimalLeftAxis: 0
+        })
+
+        // API series
+        TSComponents.Card.render('series-consultas-historicas', {
+            serieId: 'apis_series_005',
+            color: "#0072BB",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas históricas"
+        })
+
+        TSComponents.Card.render('series-consultas-diarias-promedio', {
+            serieId: 'apis_series_001',
+            color: "#2E7D33",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas diarias (promedio mes)",
+            collapse: "month"
+        })
+
+        TSComponents.Card.render('series-consultas-diarias-ayer', {
+            serieId: 'apis_series_001',
+            color: "#C62828",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Consultas diarias (último día)"
+        })
+
+        TSComponents.Card.render('series-usuarios-unicos', {
+            serieId: 'apis_series_004',
+            color: "#F9A822",
+            source: "",
+            units: "",
+            links: "none",
+            title: "Usuarios únicos diarios (prom. mes)",
+            collapse: "month"
+        })
+
+        TSComponents.Graphic.render('series-graphic', {
+            graphicUrl: 'https://apis.datos.gob.ar/series/api/series/?ids=apis_series_001,apis_series_002,apis_series_003',
+            title: "Consultas diarias realizadas",
+            decimalRightAxis: 0,
+            decimalLeftAxis: 0
+        })
 </script>
