@@ -139,17 +139,17 @@
 <p>Para armar un catálogo, no necesitás tener un portal web; podés crearlo  de varias maneras: </p>
 <ul>
 <li><strong>Instalando un Portal Andino</strong>. Instalando un portal web de datos abiertos (Ej: <a href="https://datos.agroindustria.gob.ar">https://datos.agroindustria.gob.ar</a> - portal de datos abiertos del Ministerio de Agroindustria). Leé más sobre qué es y cómo instalar <strong><a href="http://andino.datos.gob.ar/">Portal Andino</a></strong>.</li>
-<li><strong>Completando un Excel</strong>. Subiendo un archivo Excel a una URL (Ej: <a href="http://estadisticas.produccion.gob.ar/catalogo.xlsx">http://estadisticas.produccion.gob.ar/catalogo.xlsx</a> - catálogo de la Secretaría de Transformación Productiva).</li>
-<li><strong>Generando un JSON</strong>. Generando y subiendo un archivo JSON a una URL (Ej: <a href="https://www.presupuestoabierto.gob.ar/datasets/data.json">https://www.presupuestoabierto.gob.ar/datasets/data.json</a> - catálogo de la Subsecretaría de Presupuesto). Esto podrías hacerlo mediante una aplicación propia, otro portal de datos abiertos, etc.</li>
+<li><strong>Completando un Excel</strong>. Subiendo un archivo Excel a una URL (Ej: <a href="http://estadisticas.produccion.gob.ar/app/catalogo.xlsx">http://estadisticas.produccion.gob.ar/app/catalogo.xlsx</a> - catálogo de la Secretaría de Transformación Productiva).</li>
+<li><strong>Generando un JSON</strong>. Generando y subiendo un archivo JSON a una URL (Ej: <a href="https://www.presupuestoabierto.gob.ar/sici/rest-api/catalog/public">https://www.presupuestoabierto.gob.ar/sici/rest-api/catalog/public</a> - catálogo de la Subsecretaría de Presupuesto). Esto podrías hacerlo mediante una aplicación propia, otro portal de datos abiertos, etc.</li>
 </ul>
 <p>Ver más <a href="http://infra.datos.gob.ar/catalog/modernizacion/dataset/8/distribution/8.1/download/nodos.csv">ejemplos de catálogos</a>.</p>
-<p>Leé más sobre cómo <a href="https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#otros-catalogos">crear un catálogo sin usar Portal Andino</a>.</p>
+<p>Leé más sobre cómo <a href="https://datosgobar.github.io/paquete-apertura-datos/perfil-metadatos/#condiciones-de-cumplimiento-del-perfil">crear un catálogo sin usar Portal Andino</a>.</p>
 <h3>Documentá tus datos</h3>
 <p><strong>Para que los datos sean abiertos, es fundamental documentarlos</strong> como <em>datasets</em> en tu catálogo de datos abiertos.</p>
-<p>Leé más sobre cómo documentar tus datos en nuestra <strong><a href="https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/">Guía para el uso y la publicación de metadatos</a></strong>.</p>
+<p>Leé más sobre cómo documentar tus datos en el <strong><a href="https://datosgobar.github.io/paquete-apertura-datos/perfil-metadatos/">Perfil de Aplicación Nacional de Metadatos para Datos Abiertos</a></strong>.</p>
 <p>El <a href="https://datosgobar.github.io/">equipo de Datos</a> del Ministerio de Modernización está para ayudarte en este proceso contactanos a <a href="mailto:datos@modernizacion.gob.ar">datos@modernizacion.gob.ar</a> para que te asistamos en cómo hacerlo mejor y cómo planificar tus próximos pasos.</p>
 <h3>Sumá tu catálogo a datos.gob.ar</h3>
-<p>Si tu catálogo cumple con el <strong><a href="https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#campos-del-perfil">Perfil Nacional de Metadatos para Datos Abiertos</a></strong> puede integrarse a datos.gob.ar. Cualquier modificación en tu catálogo se verá reflejada automáticamente en datos.gob.ar.</p>
+<p>Si tu catálogo cumple con el <strong><a href="https://datosgobar.github.io/paquete-apertura-datos/perfil-metadatos/#campos-del-perfil">Perfil Nacional de Metadatos para Datos Abiertos</a></strong> puede integrarse a datos.gob.ar. Cualquier modificación en tu catálogo se verá reflejada automáticamente en datos.gob.ar.</p>
 <ul>
 <li>Escribinos a <a href="mailto:datos@modernizacion.gob.ar">datos@modernizacion.gob.ar</a> con la URL de tu catálogo para que te sumemos a <strong><a href="http://datos.gob.ar">datos.gob.ar</a></strong>.</li>
 <li>Si sos desarrollador, y querés ver si tu catalogo está listo para estar en datos.gob.ar <a href="https://pydatajson.readthedocs.io/es/stable/MANUAL.html#validacion">validalo con <strong>pydatajson</strong></a>.</li>
@@ -178,7 +178,7 @@
 </ul>
 <p>Te recomendamos revisar <a href="http://apis.datos.gob.ar/series/">Read the Docs</a> y <a href="https://swagger.io/">OpenAPI</a> como soporte para tu documentación, podés ver nuestro <a href="https://github.com/datosgobar/series-tiempo-ar-api">ejemplo de Series de Tiempo</a> y nuestro <a href="https://github.com/datosgobar/georef-ar-api">ejemplo del Servicio de Normalización de Datos Geográficos</a>.</p>
 <ul>
-<li>Ayudá a que sea fácil de encontrar: sumá la URL de la documentación del servicio al catálogo de datos de tu organismo e <a href="https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#distribucion-distribution">indicá que es una API en tus metadatos</a>.</li>
+<li>Ayudá a que sea fácil de encontrar: sumá la URL de la documentación del servicio al catálogo de datos de tu organismo e <a href="https://datosgobar.github.io/paquete-apertura-datos/perfil-metadatos/#distribucion-distribution">indicá que es una API en tus metadatos</a>.</li>
 <li>Cuidá tu infraestructura: publicá la base de datos completa en formatos abiertos junto con el servicio (Ej.: <a href="http://datos.gob.ar/dataset/modernizacion-base-series-tiempo-administracion-publica-nacional">dataset de Series de Tiempo</a>).</li>
 </ul>
 <h3>Sumá tus datos a la API de Series de Tiempo</h3>
@@ -191,8 +191,8 @@
 </ul>
 <p>Para sumar tus series a la API:</p>
 <ul>
-<li>Publicá tus indicadores o estadísticas en archivos CSV, siguiendo <a href="https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#distribucion-de-series-de-tiempo">este formato estándar</a>.</li>
-<li><a href="https://datosgobar.github.io/paquete-apertura-datos/guia_metadatos/#documentar-un-dataset-de-series-de-tiempo">Documentá tus archivos CSV con series de tiempo</a> en tu <strong>catálogo de datos abiertos</strong>.</li>
+<li>Publicá tus indicadores o estadísticas en archivos CSV, siguiendo <a href="https://datosgobar.github.io/paquete-apertura-datos/perfil-metadatos/#distribucion-de-series-de-tiempo">este formato estándar</a>.</li>
+<li><a href="https://datosgobar.github.io/paquete-apertura-datos/perfil-metadatos/#dataset-dataset-series-de-tiempo">Documentá tus archivos CSV con series de tiempo</a> en tu <strong>catálogo de datos abiertos</strong>.</li>
 <li><a href="mailto:datos@modernizacion.gob.ar">Avisanos que tu catálogo tiene series de tiempo</a>, para que lo agreguemos a la API.</li>
 </ul>
 <p>Si sos desarrollador, tenés tus series de tiempo en archivos Excel y es difícil convertirlos al formato estándar en CSV, podés usar el <strong><a href="https://github.com/datosgobar/series-tiempo-ar-scraping">Scraper de Series de Tiempo</a></strong>.</p>
